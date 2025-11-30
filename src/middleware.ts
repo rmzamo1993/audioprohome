@@ -15,6 +15,16 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
+    // Skip middleware for SEO and static files
+    if (
+        pathname === '/sitemap.xml' ||
+        pathname === '/robots.txt' ||
+        pathname.startsWith('/api/') ||
+        pathname.includes('.')
+    ) {
+        return;
+    }
+
     // Check if there is any supported locale in the pathname
     const pathnameHasLocale = locales.some(
         (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
