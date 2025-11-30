@@ -11,7 +11,12 @@ export interface Product {
   pros: string[];
   cons: string[];
   affiliateLink: string;
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
 }
+
 
 const productsEn: Product[] = [
   {
@@ -104,7 +109,29 @@ For **home studio recording**, **podcast production**, **music creation**, and *
       'Slightly more expensive than previous generations',
       'No MIDI I/O'
     ],
-    affiliateLink: 'https://amzn.to/4p2lImg'
+    faqs: [
+      {
+        question: 'Is the Focusrite Scarlett 2i2 good for beginners?',
+        answer: 'Yes, the Scarlett 2i2 is perfect for beginners. It features plug-and-play setup, Auto Gain for easy level setting, and comes with comprehensive software including Auto-Tune Unlimited trial and production tools.'
+      },
+      {
+        question: 'Can I record vocals and guitar at the same time?',
+        answer: 'Yes, the 2i2 has two combo XLR/TRS inputs allowing you to record two sources simultaneously, such as vocals with one microphone and guitar with another.'
+      },
+      {
+        question: 'Does it work with Mac and PC?',
+        answer: 'Absolutely. The Scarlett 2i2 is class-compliant and works with macOS, Windows, and even iOS/iPadOS devices. It\'s compatible with all major DAWs including Pro Tools, Logic Pro, Ableton Live, and FL Studio.'
+      },
+      {
+        question: 'Do I need phantom power for my microphone?',
+        answer: 'If you\'re using a condenser microphone, yes. The Scarlett 2i2 provides switchable 48V phantom power on both inputs. Dynamic microphones like the Shure SM58 don\'t require phantom power.'
+      },
+      {
+        question: 'What\'s the difference between 2i2, Solo, and 4i4?',
+        answer: 'The Solo has 1 mic input, the 2i2 has 2 mic inputs, and the 4i4 has 2 mic inputs plus MIDI I/O and additional line outputs. Choose based on how many sources you need to record simultaneously.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/40dUq8Q'
   },
   {
     id: '2',
@@ -224,6 +251,24 @@ For **home studio recording**, **music production**, **mixing**, and **mastering
     cons: [
       'Lacks deep sub-bass (typical for 5" monitors)',
       'Can be fatiguing due to brutal honesty'
+    ],
+    faqs: [
+      {
+        question: 'Do I need a subwoofer with the Yamaha HS5?',
+        answer: 'For most music production and mixing, the HS5 is sufficient. However, if you produce bass-heavy genres like EDM, hip-hop, or need to check sub-bass frequencies below 50Hz, pairing with a subwoofer like the Yamaha HS8S isrecommended.'
+      },
+      {
+        question: 'How far should I sit from HS5 monitors?',
+        answer: 'The optimal listening distance for HS5 monitors is 3-5 feet (1-1.5m). Position them in an equilateral triangle with your head, angled about 30 degrees inward pointing at your ears.'
+      },
+      {
+        question: 'Can I use HS5 monitors without acoustic treatment?',
+        answer: 'Yes, the HS5 includes room control switches (-2dB, -4dB) specifically designed to help adapt to untreated rooms. However, basic acoustic treatment will always improve accuracy.'
+      },
+      {
+        question: 'Are these good for beginners?',
+        answer: 'The HS5 is honest to a fault, which can be challenging for beginners who are used to consumer speakers. However, learning on accurate monitors makes you a better mixer faster.'
+      }
     ],
     affiliateLink: 'https://amzn.to/4pBLUUy'
   },
@@ -1099,6 +1144,28 @@ Para **grabación de estudio casero**, **producción de podcast**, **creación m
     cons: [
       'Ligeramente más cara que generaciones anteriores',
       'Sin E/S MIDI'
+    ],
+    faqs: [
+      {
+        question: '¿Es la Focusrite Scarlett 2i2 buena para principiantes?',
+        answer: 'Sí, la Scarlett 2i2 es perfecta para principiantes. Cuenta con configuración plug-and-play, Auto Gain para ajustar niveles fácilmente, y viene con software completo incluyendo prueba de Auto-Tune Unlimited y herramientas de producción.'
+      },
+      {
+        question: '¿Puedo grabar voces y guitarra al mismo tiempo?',
+        answer: 'Sí, la 2i2 tiene dos entradas combo XLR/TRS que te permiten grabar dos fuentes simultáneamente, como voces con un micrófono y guitarra con otro.'
+      },
+      {
+        question: '¿Funciona con Mac y PC?',
+        answer: 'Absolutamente. La Scarlett 2i2 es class-compliant y funciona con macOS, Windows, e incluso dispositivos iOS/iPadOS. Es compatible con todos los DAWs principales incluyendo Pro Tools, Logic Pro, Ableton Live y FL Studio.'
+      },
+      {
+        question: '¿Necesito phantom power para mi micrófono?',
+        answer: 'Si estás usando un micrófono de condensador, sí. La Scarlett 2i2 proporciona phantom power de 48V conmutable en ambas entradas. Los micrófonos dinámicos como el Shure SM58 no requieren phantom power.'
+      },
+      {
+        question: '¿Cuál es la diferencia entre 2i2, Solo y 4i4?',
+        answer: 'El Solo tiene 1 entrada de micrófono, la 2i2 tiene 2 entradas de micrófono, y la 4i4 tiene 2 entradas de micrófono más E/S MIDI y salidas de línea adicionales. Elige según cuántas fuentes necesites grabar simultáneamente.'
+      }
     ],
     affiliateLink: 'https://amzn.to/4p2lImg'
   },

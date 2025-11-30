@@ -230,6 +230,147 @@ export default async function Home({ params, searchParams }: PageProps) {
                     </div>
                 </section>
 
+                {/* Comparison Table */}
+                <section style={{ padding: '6rem 0' }}>
+                    <div className="container">
+                        <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '1rem' }}>
+                            {isSpanish ? 'Comparación Rápida de Mejores Equipos' : 'Quick Comparison of Top Gear'}
+                        </h2>
+                        <p style={{ color: 'var(--text-muted)', textAlign: 'center', marginBottom: '3rem', maxWidth: '700px', margin: '0 auto 3rem' }}>
+                            {isSpanish
+                                ? 'Compara las especificaciones clave de nuestros productos mejor valorados para encontrar la opción perfecta para tu estudio casero.'
+                                : 'Compare key specifications of our top-rated products to find the perfect option for your home studio.'}
+                        </p>
+
+                        <div style={{ overflowX: 'auto' }}>
+                            <table style={{
+                                width: '100%',
+                                borderCollapse: 'separate',
+                                borderSpacing: 0,
+                                background: 'var(--surface)',
+                                borderRadius: 'var(--radius-lg)',
+                                overflow: 'hidden'
+                            }}>
+                                <thead>
+                                    <tr style={{ background: 'var(--card-bg)', borderBottom: '2px solid var(--border)' }}>
+                                        <th style={{ padding: '1.5rem', textAlign: 'left', fontWeight: 600 }}>
+                                            {isSpanish ? 'Producto' : 'Product'}
+                                        </th>
+                                        <th style={{ padding: '1.5rem', textAlign: 'center', fontWeight: 600 }}>
+                                            {isSpanish ? 'Precio' : 'Price'}
+                                        </th>
+                                        <th style={{ padding: '1.5rem', textAlign: 'center', fontWeight: 600 }}>
+                                            {isSpanish ? 'Valoración' : 'Rating'}
+                                        </th>
+                                        <th style={{ padding: '1.5rem', textAlign: 'center', fontWeight: 600 }}>
+                                            {isSpanish ? 'Mejor para' : 'Best For'}
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {products.slice(0, 5).map((product, index) => (
+                                        <tr key={product.id} style={{ borderBottom: '1px solid var(--border)' }}>
+                                            <td style={{ padding: '1.5rem' }}>
+                                                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                                    <div style={{
+                                                        width: '60px',
+                                                        height: '60px',
+                                                        borderRadius: 'var(--radius)',
+                                                        backgroundImage: `url(${product.image})`,
+                                                        backgroundSize: 'cover',
+                                                        backgroundPosition: 'center',
+                                                        flexShrink: 0
+                                                    }} />
+                                                    <div>
+                                                        <div style={{ fontWeight: 600, marginBottom: '0.25rem' }}>
+                                                            {product.title}
+                                                        </div>
+                                                        <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                                                            {product.category}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td style={{ padding: '1.5rem', textAlign: 'center', fontWeight: 700, color: 'var(--primary)' }}>
+                                                {product.price}
+                                            </td>
+                                            <td style={{ padding: '1.5rem', textAlign: 'center' }}>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+                                                    <span style={{ color: '#fbbf24' }}>★</span>
+                                                    <span style={{ fontWeight: 600 }}>{product.rating}</span>
+                                                </div>
+                                            </td>
+                                            <td style={{ padding: '1.5rem', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+                                                {product.summary.split('.')[0].substring(0, 50)}...
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Why Trust Us */}
+                <section style={{ padding: '6rem 0', background: 'linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%)' }}>
+                    <div className="container">
+                        <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '1rem' }}>
+                            {isSpanish ? '¿Por Qué Confiar en AudioProHome?' : 'Why Trust AudioProHome?'}
+                        </h2>
+                        <p style={{ color: 'var(--text-muted)', textAlign: 'center', marginBottom: '4rem', maxWidth: '700px', margin: '0 auto 4rem' }}>
+                            {isSpanish
+                                ? 'Nuestras reseñas están respaldadas por experiencia real y conocimiento profesional en ingeniería de audio.'
+                                : 'Our reviews are backed by real-world experience and professional audio engineering expertise.'}
+                        </p>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div className="card" style={{ padding: '2.5rem', textAlign: 'center', background: 'rgba(255,255,255,0.03)' }}>
+                                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎓</div>
+                                <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>
+                                    {isSpanish ? 'Experiencia Profesional' : 'Professional Experience'}
+                                </h3>
+                                <p style={{ color: 'var(--text-muted)', lineHeight: 1.7 }}>
+                                    {isSpanish
+                                        ? '15+ años trabajando con equipos de audio profesional en estudios de grabación y producción musical.'
+                                        : '15+ years working with professional audio equipment in recording studios and music production.'}
+                                </p>
+                            </div>
+
+                            <div className="card" style={{ padding: '2.5rem', textAlign: 'center', background: 'rgba(255,255,255,0.03)' }}>
+                                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🔬</div>
+                                <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>
+                                    {isSpanish ? 'Pruebas Exhaustivas' : 'Thorough Testing'}
+                                </h3>
+                                <p style={{ color: 'var(--text-muted)', lineHeight: 1.7 }}>
+                                    {isSpanish
+                                        ? 'Probamos cada producto en condiciones reales durante semanas antes de publicar nuestras reseñas.'
+                                        : 'We test each product in real-world conditions for weeks before publishing our reviews.'}
+                                </p>
+                            </div>
+
+                            <div className="card" style={{ padding: '2.5rem', textAlign: 'center', background: 'rgba(255,255,255,0.03)' }}>
+                                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
+                                <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>
+                                    {isSpanish ? 'Opiniones Honestas' : 'Honest Opinions'}
+                                </h3>
+                                <p style={{ color: 'var(--text-muted)', lineHeight: 1.7 }}>
+                                    {isSpanish
+                                        ? 'Siempre destacamos tanto ventajas como desventajas para ayudarte a tomar la mejor decisión.'
+                                        : 'We always highlight both pros and cons to help you make the best informed decision.'}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+                            <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem', fontStyle: 'italic' }}>
+                                {isSpanish
+                                    ? '* Ganamos comisiones de compras calificadas como Amazon Associate'
+                                    : '* We earn from qualifying purchases as an Amazon Associate'}
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
                 {/* Categories Section */}
                 <section
                     aria-label={isSpanish ? 'Categorías de productos' : 'Product categories'}
