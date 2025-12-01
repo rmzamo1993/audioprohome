@@ -129,7 +129,7 @@ export default async function Home({ params, searchParams }: PageProps) {
         '@type': 'Organization',
         name: 'AudioProHome',
         url: baseUrl,
-        logo: `${baseUrl}/logo.png`,
+        logo: `${baseUrl}/icon.png`,
         sameAs: [
             'https://facebook.com/audioprohome',
             'https://twitter.com/audioprohome',
