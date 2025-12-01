@@ -184,9 +184,9 @@ export default async function ReviewPage({ params }: PageProps) {
                         </div>
                     </nav>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12" style={{ gridTemplateColumns: '2fr 1fr' }}>
+                    <div className="review-layout">
                         {/* Main Content */}
-                        <article>
+                        <article className="review-content">
                             <h1 style={{ fontSize: '3rem', marginBottom: '1rem', lineHeight: 1.1 }}>
                                 {product.title}
                             </h1>
@@ -200,17 +200,61 @@ export default async function ReviewPage({ params }: PageProps) {
                                 </span>
                             </div>
 
-                            <div style={{
+                            <div className="product-image-container" style={{
                                 height: '400px',
                                 background: '#1a1a1a',
                                 borderRadius: 'var(--radius-lg)',
                                 marginBottom: '2rem',
                                 marginTop: '2rem',
-                                marginRight: '2rem',
                                 backgroundImage: `url(${product.image})`,
-                                backgroundSize: 'cover',
+                                backgroundSize: 'contain',
+                                backgroundRepeat: 'no-repeat',
                                 backgroundPosition: 'center'
                             }} />
+
+                            {/* Sidebar - Shows here on mobile */}
+                            <div className="sidebar-mobile">
+                                <div className="card" style={{ padding: '2rem' }}>
+                                    <div style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '0.5rem' }}>
+                                        {product.price}
+                                    </div>
+                                    <div style={{ color: '#10b981', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+                                        <span>{dict.product.in_stock}</span>
+                                    </div>
+
+                                    <a
+                                        href={product.affiliateLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer sponsored"
+                                        className="btn btn-primary"
+                                        style={{ width: '100%', marginBottom: '1rem', fontSize: '1.1rem' }}
+                                    >
+                                        {dict.product.check_price}
+                                    </a>
+
+                                    <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)', textAlign: 'center', marginBottom: '2rem' }}>
+                                        {dict.product.secure_trans}
+                                    </div>
+
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '1rem', borderBottom: '1px solid var(--border)', paddingBottom: '0.5rem' }}>{dict.product.pros}</h4>
+                                    <ul style={{ listStyle: 'none', marginBottom: '2rem' }}>
+                                        {product.pros.map((pro, i) => (
+                                            <li key={i} style={{ marginBottom: '0.5rem', display: 'flex', gap: '0.5rem' }}>
+                                                <span style={{ color: '#10b981' }}>✓</span> {pro}
+                                            </li>
+                                        ))}
+                                    </ul>
+
+                                    <h4 style={{ fontSize: '1.1rem', marginBottom: '1rem', borderBottom: '1px solid var(--border)', paddingBottom: '0.5rem' }}>{dict.product.cons}</h4>
+                                    <ul style={{ listStyle: 'none' }}>
+                                        {product.cons.map((con, i) => (
+                                            <li key={i} style={{ marginBottom: '0.5rem', display: 'flex', gap: '0.5rem' }}>
+                                                <span style={{ color: '#ef4444' }}>✕</span> {con}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
 
                             <div className="prose" style={{ color: 'var(--text-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}>
                                 <ReactMarkdown
@@ -259,8 +303,8 @@ export default async function ReviewPage({ params }: PageProps) {
                             )}
                         </article>
 
-                        {/* Sidebar */}
-                        <div style={{ position: 'sticky', top: '100px', height: 'fit-content' }}>
+                        {/* Sidebar - Shows here on desktop */}
+                        <div className="sidebar-desktop" style={{ position: 'sticky', top: '100px', height: 'fit-content' }}>
                             <div className="card" style={{ padding: '2rem' }}>
                                 <div style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '0.5rem' }}>
                                     {product.price}
