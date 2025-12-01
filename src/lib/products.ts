@@ -408,6 +408,24 @@ Whether you're a **beginner producer** setting up your first **home recording st
       'Soundstage is narrower than open-back alternatives',
       'Stock earpads can get warm over long sessions'
     ],
+    faqs: [
+      {
+        question: 'Do I need a headphone amp for the ATH-M50x?',
+        answer: 'No, with an impedance of 38 ohms, they are very easy to drive. They work perfectly with smartphones, laptops, and audio interfaces without needing a dedicated amplifier.'
+      },
+      {
+        question: 'Are these good for mixing?',
+        answer: 'Yes, they are excellent for checking low-end and ensuring your mix translates well. However, for primary mixing, many engineers prefer open-back headphones for a wider soundstage.'
+      },
+      {
+        question: 'Is the cable detachable?',
+        answer: 'Yes, the ATH-M50x features a detachable cable mechanism and comes with three cables: a 1.2m-3.0m coiled cable, a 3.0m straight cable, and a 1.2m straight cable.'
+      },
+      {
+        question: 'Are these open or closed-back?',
+        answer: 'These are closed-back headphones, which means they provide excellent sound isolation, making them perfect for recording vocals (no bleed into the mic) and commuting.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/48u2M9b'
   },
   {
@@ -705,6 +723,24 @@ For **podcast production**, **content creation**, **streaming**, **voiceover wor
       'Requires a lot of gain (preamp/Cloudlifter needed)',
       'Pricey for beginners'
     ],
+    faqs: [
+      {
+        question: 'Do I need a Cloudlifter for the Shure SM7B?',
+        answer: 'In most cases, yes. The SM7B has a low output (-59dB) and requires about 60dB of clean gain. Unless you have a high-end interface with powerful preamps, an inline activator like a Cloudlifter or Triton FetHead is highly recommended to avoid noise.'
+      },
+      {
+        question: 'Does the SM7B need phantom power?',
+        answer: 'The microphone itself is dynamic and does NOT need phantom power. However, if you use a Cloudlifter or similar inline preamp, THAT device WILL require phantom power to operate.'
+      },
+      {
+        question: 'Is it good for singing?',
+        answer: 'Yes, it is legendary for rock, pop, and rap vocals. Michael Jackson\'s "Thriller" album was recorded with an SM7 (the predecessor to the SM7B).'
+      },
+      {
+        question: 'Does it come with a stand?',
+        answer: 'No, it comes with a built-in yoke mount but you will need to purchase a microphone stand or boom arm separately. A sturdy boom arm like the Røde PSA1+ is recommended due to the mic\'s weight.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/48IkPtm'
   },
   {
@@ -782,6 +818,24 @@ Whether you are a **singer-songwriter** recording your first album, a **podcaste
       '32-bit float only works via USB',
       'Large footprint with the shock mount'
     ],
+    faqs: [
+      {
+        question: 'Is the NT1 5th Gen USB or XLR?',
+        answer: 'It is both! It features a unique "Dual Connect" output that allows you to plug in either an XLR cable for traditional interfaces or a USB-C cable for direct computer connection.'
+      },
+      {
+        question: 'Does it need phantom power?',
+        answer: 'When using the XLR connection, yes, it requires 48V phantom power. When using the USB connection, it is powered by your computer and does not need external phantom power.'
+      },
+      {
+        question: 'What is 32-bit float recording?',
+        answer: '32-bit float is a digital recording format that captures such a wide dynamic range that it is virtually impossible to clip (distort) your audio. You can recover audio that was recorded too loud or too quiet in post-production.'
+      },
+      {
+        question: 'Does it come with a shock mount?',
+        answer: 'Yes, the NT1 5th Gen comes with the SM6 shock mount, which includes a high-quality detachable pop filter, as well as XLR and USB-C cables.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/3KncYIr'
   },
   {
@@ -846,6 +900,24 @@ For **vocal recording**, **podcasting**, and **music production**, the combinati
       'Compressor has fixed presets',
       'More expensive than entry-level options'
     ],
+    faqs: [
+      {
+        question: 'Does the Volt 276 work with iPad/iPhone?',
+        answer: 'Yes, it is compatible with iPad and iPhone. However, it requires an external 5V power supply (not included) or a powered USB hub when used with Lightning devices.'
+      },
+      {
+        question: 'What is the difference between Volt 276 and Volt 2?',
+        answer: 'The Volt 276 includes the built-in 76 Compressor (analog emulation of the 1176) and a slightly different chassis design. The Volt 2 has the Vintage Mic Preamp mode but lacks the 76 Compressor.'
+      },
+      {
+        question: 'Does it come with plugins?',
+        answer: 'Yes, it includes a massive software bundle with Ableton Live Lite, Melodyne Essential, Virtual Drummer, Marshall amp sim, and plugins from Ampeg, Relab, and more.'
+      },
+      {
+        question: 'Is the compressor analog or digital?',
+        answer: 'The 76 Compressor in the Volt 276 is a real analog circuit, not a digital emulation. This means the compression happens before the signal is converted to digital, preventing clipping at the input stage.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/48HwzMK'
   },
   {
@@ -886,6 +958,24 @@ If you demand the absolute best and want the legendary SSL sound in a compact fo
     cons: [
       'Significant investment',
       'Analog workflow has a learning curve'
+    ],
+    faqs: [
+      {
+        question: 'Is this a digital or analog mixer?',
+        answer: 'The SSL18 (BiG SiX) is a true analog mixing console with a built-in USB audio interface. The summing, EQ, and compression are all 100% analog.'
+      },
+      {
+        question: 'Does it have the "4K" mode?',
+        answer: 'No, the "4K" mode is found on the SSL 2/2+ interfaces. The SSL18 uses SuperAnalogue™ preamps, which are cleaner and higher fidelity, similar to the AWS and Duality consoles.'
+      },
+      {
+        question: 'Can I use it to sum my mix?',
+        answer: 'Yes! One of its main features is analog summing. You can route your stems from your DAW through the SSL18\'s analog channels and sum them through the G-Series Bus Compressor for that "big console" sound.'
+      },
+      {
+        question: 'Is it bus powered?',
+        answer: 'No, due to the high-voltage analog rails and extensive feature set, it requires an external power supply (included).'
+      }
     ],
     affiliateLink: 'https://amzn.to/4pxM6o2'
   },
@@ -965,6 +1055,24 @@ It's an investment in quality that pays dividends on every session.
     cons: [
       'No MIDI I/O',
       'Headphone output can be quiet on high-impedance cans'
+    ],
+    faqs: [
+      {
+        question: 'Does the iD14 MkII need external power?',
+        answer: 'It is designed to be bus-powered via USB 3.0 (USB-C). However, for full phantom power performance and maximum output, ensuring your USB port delivers enough current is important. It does not typically require a wall wart.'
+      },
+      {
+        question: 'Can I expand the inputs?',
+        answer: 'Yes, the iD14 MkII features an optical ADAT input, allowing you to connect an external 8-channel mic preamp (like the Audient ASP880) to record up to 10 channels simultaneously.'
+      },
+      {
+        question: 'Are the preamps the same as the console?',
+        answer: 'Yes, Audient uses the exact same Class-A microphone preamp design in the iD14 MkII as they do in their flagship ASP8024-HE recording console.'
+      },
+      {
+        question: 'Is the chassis metal?',
+        answer: 'Yes, the iD14 MkII features a robust all-metal construction with hand-milled aluminum knobs, making it incredibly durable for travel.'
+      }
     ],
     affiliateLink: 'https://amzn.to/3MaBkWk'
   },
@@ -1050,7 +1158,199 @@ At this price point, nothing else comes close to matching its combination of sou
       'Headphone amp could be louder',
       'No "Air" or vintage modes'
     ],
+    faqs: [
+      {
+        question: 'Does the Studio 24c work with other DAWs?',
+        answer: 'Yes, while it comes with Studio One Artist, the Studio 24c is compatible with any DAW that supports ASIO (Windows) or Core Audio (macOS), such as Ableton Live, Logic Pro, Pro Tools, and FL Studio.'
+      },
+      {
+        question: 'Can I record two microphones at once?',
+        answer: 'Yes, the Studio 24c has two combo XLR/TRS inputs, allowing you to record two microphones or two instruments simultaneously.'
+      },
+      {
+        question: 'Is it suitable for live streaming?',
+        answer: 'Absolutely. With its loopback recording feature, you can easily capture audio from your computer and your inputs simultaneously, making it great for live streaming and podcasting.'
+      },
+      {
+        question: 'Does it require an external power supply?',
+        answer: 'No, the Studio 24c is bus-powered via USB-C, meaning it draws all necessary power directly from your computer or compatible device.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/43ZW9d9'
+  },
+  {
+    id: '3',
+    slug: 'jbl-305p-mkii',
+    title: 'JBL 305P MkII',
+    category: 'Monitor',
+    price: '$129.00',
+    rating: 4.7,
+    image: 'https://m.media-amazon.com/images/I/712IfEbOgBL._AC_SX679_.jpg',
+    summary: 'Affordable studio monitors with exceptional imaging and a wide sweet spot.',
+    fullReview: `
+The **JBL 305P MkII** studio monitor has become a go-to choice for **home studio owners**, **music producers**, and **audio engineers** looking for professional-grade sound without breaking the bank. Building on the success of its acclaimed predecessor, the MkII series brings enhanced performance and a sleek design to your desktop.
+
+If you're serious about **mixing and mastering**, and need monitors that reveal the truth about your audio, the 305P MkII delivers an incredibly accurate and detailed listening experience.
+
+### Image Control Waveguide: Pinpoint Accuracy
+
+The standout feature of the JBL 305P MkII is its patented **Image Control Waveguide**. Derived from JBL's flagship M2 Master Reference Monitors, this innovative design precisely controls the sound emanating from the tweeter and woofer.
+
+What does this mean for your mixes?
+- **Incredible Stereo Imaging**: Sounds are placed with pinpoint accuracy in the stereo field, allowing you to hear exactly where each instrument sits.
+- **Wide Sweet Spot**: You don't have to be perfectly centered to hear an accurate representation of your mix. This is crucial for collaborative work or when moving around your studio.
+- **Enhanced Detail**: The waveguide ensures a smooth frequency response and off-axis accuracy, revealing subtle details in your audio that cheaper monitors might mask.
+
+This technology makes the 305P MkII an exceptional tool for **vocal mixing**, **instrument placement**, and **critical listening**.
+
+### Next-Gen Transducers: Power and Clarity
+
+The MkII series features **next-generation JBL transducers** that deliver improved transient response and linearity.
+
+- **5-inch Long-Throw Woofer**: Provides powerful, accurate bass response down to 49Hz, with minimal distortion even at high volumes.
+- **1-inch Neodymium Tweeter**: Delivers crisp, detailed highs up to 20kHz, ensuring every nuance of your cymbals and vocal sibilance is clear.
+- **Bi-amplified Design**: Each speaker features two dedicated Class-D amplifiers (41W for the woofer, 41W for the tweeter), providing ample headroom and precise control over each driver.
+
+This combination results in a monitor that can handle demanding mixes with clarity and punch, making it suitable for **electronic music production**, **hip-hop beats**, and **rock mixing**.
+
+### Boundary EQ and HF Trim: Tailor to Your Room
+
+A common challenge in **home studios** is dealing with imperfect room acoustics. The 305P MkII offers flexible acoustic controls to help you optimize their performance for your specific environment:
+
+- **Boundary EQ**: This switch allows you to compensate for bass buildup that occurs when monitors are placed close to walls or in corners. Options include 0dB, -1.5dB, and -3dB.
+- **HF Trim**: Adjusts the high-frequency output (+2dB, 0dB, -2dB) to compensate for overly bright or dull rooms, or to suit your personal preference.
+
+These controls are invaluable for achieving a more accurate sound in **untreated rooms** and ensuring your mixes translate well to other playback systems.
+
+### Professional Connectivity
+
+The 305P MkII offers professional input options for seamless integration into any studio setup:
+
+- **Balanced XLR Input**: For connecting to audio interfaces, mixers, and other professional gear.
+- **Balanced 1/4-inch TRS Input**: Provides flexibility for various connections.
+- **Input Sensitivity Switch**: Allows you to optimize the input level for different sources.
+
+### Verdict: The Best Value in Studio Monitoring
+
+The **JBL 305P MkII** offers an unparalleled combination of **accuracy, power, and features** at an incredibly accessible price point. Its **Image Control Waveguide** sets it apart from competitors, providing a level of stereo imaging and detail usually found in much more expensive monitors.
+
+For **aspiring producers**, **podcasters**, **video editors**, and anyone needing reliable, honest audio reproduction, the 305P MkII is an outstanding choice. It's a monitor that will help you make better mixing decisions and create professional-sounding tracks.
+    `,
+    pros: [
+      'Exceptional stereo imaging and wide sweet spot',
+      'Accurate and detailed sound reproduction',
+      'Boundary EQ and HF Trim for room adaptation',
+      'Powerful bi-amplified design'
+    ],
+    cons: [
+      'Slight hiss when idle (normal for Class D amps)',
+      'Glossy finish attracts fingerprints'
+    ],
+    faqs: [
+      {
+        question: 'Do these monitors come as a pair?',
+        answer: 'No, most professional studio monitors, including the JBL 305P MkII, are sold individually. You will need to purchase two for a stereo setup.'
+      },
+      {
+        question: 'Is the hiss normal?',
+        answer: 'Yes, a faint hiss when idle is normal for Class D amplifiers in this price range. It is not audible when music is playing and does not affect recording quality.'
+      },
+      {
+        question: 'Do I need an audio interface?',
+        answer: 'Yes, for the best results and to control volume easily, connecting these to an audio interface via balanced TRS or XLR cables is highly recommended.'
+      },
+      {
+        question: 'Are they good for small rooms?',
+        answer: 'Yes, the front-firing bass port allows you to place them closer to walls than rear-ported monitors, making them excellent for small bedroom studios.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/416592r'
+  },
+  {
+    id: '4',
+    slug: 'krk-rokit-rp5-g4',
+    title: 'KRK Rokit RP5 G4',
+    category: 'Monitor',
+    price: '$179.00',
+    rating: 4.6,
+    image: 'https://m.media-amazon.com/images/I/712IfEbOgBL._AC_SX679_.jpg',
+    summary: 'The iconic yellow-coned monitors, now with DSP-driven room correction and a graphic EQ.',
+    fullReview: `
+The **KRK Rokit RP5 G4** is the latest iteration of one of the most recognizable and popular **studio monitors** in the world. Famous for their distinctive yellow cones, Rokit monitors have been a staple in **home studios** and **project studios** for decades, known for their punchy bass and vibrant sound.
+
+The G4 series takes the Rokit legacy to a new level, incorporating **DSP-driven room correction**, a **graphic EQ**, and a more refined sound profile, making them an even more powerful tool for **music producers**, **DJs**, and **audio enthusiasts**.
+
+### DSP-Driven Room Correction: Smart Monitoring
+
+A groundbreaking feature for monitors in this price range, the **KRK Rokit RP5 G4** includes **DSP-driven room tuning**. This allows you to optimize the monitor's response to your specific acoustic environment.
+
+How it works:
+1.  Download the **KRK Audio Tools App** (available for iOS and Android).
+2.  Use the app's Room Analysis feature to measure your room's acoustics.
+3.  The app will recommend the optimal EQ settings for your Rokit G4 monitors.
+4.  Manually apply these settings using the **onboard LCD graphic EQ** on the back of each monitor.
+
+This intelligent system helps to mitigate common acoustic problems like bass buildup or harsh highs, ensuring you hear a more accurate representation of your mix. It's an invaluable tool for **untreated home studios** and helps your mixes translate better to other systems.
+
+### Brickwall Limiter: Protection and Power
+
+The Rokit G4 series features a built-in **Brickwall Limiter** that automatically engages when you push the monitors too hard. This protects the drivers from damage and maintains a balanced sound, even at maximum volume.
+
+This means you can confidently push your monitors during **mixing sessions** or **DJ sets** without worrying about blowing a speaker. It's a professional-grade feature that adds significant durability and peace of mind.
+
+### Kevlar® Drivers: Punchy and Precise
+
+The **KRK Rokit RP5 G4** utilizes **matching Kevlar® drivers** for both the woofer and tweeter. Kevlar is known for its high strength-to-weight ratio, which translates to:
+
+-   **Punchy Bass**: The 5-inch Kevlar woofer delivers tight, articulate low-end response, perfect for **electronic music**, **hip-hop**, and **pop production**.
+-   **Clear Mids and Highs**: The 1-inch Kevlar tweeter provides crisp, detailed high frequencies without harshness, ensuring vocals and cymbals cut through the mix.
+-   **Consistent Sound**: The matching material across both drivers ensures sonic integrity and clarity throughout the frequency spectrum.
+
+The front-firing port design also contributes to a more accurate bass response and allows for flexible placement in your studio, even close to walls.
+
+### Professional Design and Connectivity
+
+The Rokit RP5 G4 features a sleek, low-resonance enclosure with a high-density foam isolation pad to minimize vibration.
+
+-   **LCD Graphic EQ**: Easy-to-read display on the back for precise EQ adjustments.
+-   **Balanced XLR and TRS Inputs**: For connecting to your audio interface, mixer, or other professional audio equipment.
+-   **Class D Amplification**: Efficient and powerful, providing 55 watts of total output.
+
+### Verdict: Modern Classic for Modern Producers
+
+The **KRK Rokit RP5 G4** takes the beloved Rokit sound and elevates it with intelligent features like **DSP room correction** and a **graphic EQ**. It's a monitor designed for the demands of contemporary **music production**, offering a powerful, detailed, and adaptable listening experience.
+
+If you're a **producer** who values a monitor that can be tailored to your room, delivers punchy bass, and has a vibrant sound signature, the Rokit RP5 G4 is an excellent choice. It's a modern classic that continues to evolve with the needs of today's creators.
+    `,
+    pros: [
+      'DSP-driven room correction with KRK App',
+      'Onboard LCD graphic EQ',
+      'Matching Kevlar® drivers for consistent sound',
+      'Built-in Brickwall Limiter for protection'
+    ],
+    cons: [
+      'Sound signature can be colored for some critical listening',
+      'App-based room correction might not be for everyone'
+    ],
+    faqs: [
+      {
+        question: 'Do these monitors come as a pair?',
+        answer: 'No, like most professional studio monitors, KRK Rokit RP5 G4s are sold individually. You will need to purchase two for a stereo setup.'
+      },
+      {
+        question: 'Do I need the KRK Audio Tools App to use them?',
+        answer: 'No, the app is optional but highly recommended for utilizing the DSP-driven room correction features. You can still adjust the EQ manually via the LCD screen on the back of the monitor.'
+      },
+      {
+        question: 'Are they good for electronic music?',
+        answer: 'Yes, KRK monitors are particularly popular among electronic music producers due to their punchy bass response and clear highs, which are well-suited for genres like EDM, hip-hop, and pop.'
+      },
+      {
+        question: 'What cables do I need?',
+        answer: 'You will need balanced XLR or 1/4-inch TRS cables to connect the monitors to your audio interface or mixer. These are typically not included.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/416592r'
   }
 ];
 
@@ -1288,6 +1588,24 @@ Para **grabación de estudio casero**, **producción musical**, **mezcla** y **m
       'Carece de sub-graves profundos (típico de 5")',
       'Puede ser fatigante debido a su honestidad'
     ],
+    faqs: [
+      {
+        question: '¿Necesito un subwoofer con los Yamaha HS5?',
+        answer: 'Para la mayoría de producción musical y mezcla, el HS5 es suficiente. Sin embargo, si produces géneros con muchos graves como EDM o hip-hop, o necesitas verificar frecuencias sub-graves por debajo de 50Hz, se recomienda emparejarlos con un subwoofer como el Yamaha HS8S.'
+      },
+      {
+        question: '¿A qué distancia debo sentarme de los monitores HS5?',
+        answer: 'La distancia de escucha óptima para los monitores HS5 es de 1 a 1.5 metros. Posiciónalos en un triángulo equilátero con tu cabeza, angulados unos 30 grados hacia adentro apuntando a tus oídos.'
+      },
+      {
+        question: '¿Puedo usar monitores HS5 sin tratamiento acústico?',
+        answer: 'Sí, el HS5 incluye interruptores de control de sala (-2dB, -4dB) diseñados específicamente para ayudar a adaptarse a habitaciones no tratadas. Sin embargo, un tratamiento acústico básico siempre mejorará la precisión.'
+      },
+      {
+        question: '¿Son buenos para principiantes?',
+        answer: 'El HS5 es honesto hasta el extremo, lo que puede ser desafiante para principiantes acostumbrados a altavoces de consumo. Sin embargo, aprender en monitores precisos te convierte en un mejor mezclador más rápido.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/4pBLUUy'
   },
   {
@@ -1425,6 +1743,24 @@ Ya seas un **productor principiante** configurando tu primer **estudio de grabac
     cons: [
       'El escenario sonoro es más estrecho que los abiertos',
       'Las almohadillas pueden calentarse en sesiones largas'
+    ],
+    faqs: [
+      {
+        question: '¿Necesito un amplificador de auriculares para los ATH-M50x?',
+        answer: 'No, con una impedancia de 38 ohmios, son muy fáciles de mover. Funcionan perfectamente con smartphones, laptops e interfaces de audio sin necesitar un amplificador dedicado.'
+      },
+      {
+        question: '¿Son buenos para mezclar?',
+        answer: 'Sí, son excelentes para verificar los graves y asegurar que tu mezcla se traduzca bien. Sin embargo, para la mezcla principal, muchos ingenieros prefieren auriculares abiertos para un escenario sonoro más amplio.'
+      },
+      {
+        question: '¿El cable es desmontable?',
+        answer: 'Sí, el ATH-M50x cuenta con un mecanismo de cable desmontable y viene con tres cables: un cable enrollado de 1.2m-3.0m, un cable recto de 3.0m y un cable recto de 1.2m.'
+      },
+      {
+        question: '¿Son abiertos o cerrados?',
+        answer: 'Estos son auriculares cerrados, lo que significa que proporcionan un excelente aislamiento de sonido, haciéndolos perfectos para grabar voces (sin fugas al micrófono) y para viajar.'
+      }
     ],
     affiliateLink: 'https://amzn.to/48u2M9b'
   },
@@ -1571,6 +1907,24 @@ Ya sea que estés produciendo **música electrónica**, **beats de hip-hop**, **
     cons: [
       'El acabado brillante atrae huellas',
       'Ligero siseo cuando está inactivo'
+    ],
+    faqs: [
+      {
+        question: '¿Estos monitores vienen en par?',
+        answer: 'No, la mayoría de los monitores de estudio profesionales, incluyendo el JBL 305P MkII, se venden individualmente. Necesitarás comprar dos para una configuración estéreo.'
+      },
+      {
+        question: '¿Es normal el siseo?',
+        answer: 'Sí, un leve siseo cuando está inactivo es normal para amplificadores Clase D en este rango de precio. No es audible cuando se reproduce música y no afecta la calidad de grabación.'
+      },
+      {
+        question: '¿Necesito una interfaz de audio?',
+        answer: 'Sí, para obtener los mejores resultados y controlar el volumen fácilmente, se recomienda encarecidamente conectarlos a una interfaz de audio mediante cables TRS o XLR balanceados.'
+      },
+      {
+        question: '¿Son buenos para habitaciones pequeñas?',
+        answer: 'Sí, el puerto de graves frontal te permite colocarlos más cerca de las paredes que los monitores con puerto trasero, haciéndolos excelentes para estudios de dormitorio pequeños.'
+      }
     ],
     affiliateLink: 'https://amzn.to/4rq7opi'
   },
@@ -1723,6 +2077,24 @@ Para **producción de podcast**, **creación de contenido**, **streaming**, **tr
       'Requiere mucha ganancia (preamplificador potente)',
       'Costoso para principiantes'
     ],
+    faqs: [
+      {
+        question: '¿Necesito un Cloudlifter para el Shure SM7B?',
+        answer: 'En la mayoría de los casos, sí. El SM7B tiene una salida baja (-59dB) y requiere unos 60dB de ganancia limpia. A menos que tengas una interfaz de gama alta con preamplificadores potentes, se recomienda encarecidamente un activador en línea como un Cloudlifter o Triton FetHead.'
+      },
+      {
+        question: '¿El SM7B necesita phantom power?',
+        answer: 'El micrófono en sí es dinámico y NO necesita phantom power. Sin embargo, si usas un Cloudlifter o un preamplificador en línea similar, ESE dispositivo SÍ requerirá phantom power para funcionar.'
+      },
+      {
+        question: '¿Es bueno para cantar?',
+        answer: 'Sí, es legendario para voces de rock, pop y rap. El álbum "Thriller" de Michael Jackson fue grabado con un SM7 (el predecesor del SM7B).'
+      },
+      {
+        question: '¿Viene con soporte?',
+        answer: 'No, viene con un montaje de yugo incorporado pero necesitarás comprar un soporte de micrófono o brazo articulado por separado. Se recomienda un brazo robusto como el Røde PSA1+ debido al peso del micrófono.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/48IkPtm'
   },
   {
@@ -1800,6 +2172,24 @@ Ya seas un **cantautor** grabando tu primer álbum, un **podcaster** buscando ca
       '32-bit float solo funciona vía USB',
       'Ocupa bastante espacio'
     ],
+    faqs: [
+      {
+        question: '¿El NT1 5ta Gen es USB o XLR?',
+        answer: '¡Es ambos! Cuenta con una salida única "Dual Connect" que te permite conectar un cable XLR para interfaces tradicionales o un cable USB-C para conexión directa a la computadora.'
+      },
+      {
+        question: '¿Necesita phantom power?',
+        answer: 'Cuando se usa la conexión XLR, sí, requiere phantom power de 48V. Cuando se usa la conexión USB, es alimentado por tu computadora y no necesita phantom power externo.'
+      },
+      {
+        question: '¿Qué es la grabación de 32-bit float?',
+        answer: '32-bit float es un formato de grabación digital que captura un rango dinámico tan amplio que es virtualmente imposible saturar (distorsionar) tu audio. Puedes recuperar audio que fue grabado demasiado fuerte o demasiado silencioso en post-producción.'
+      },
+      {
+        question: '¿Viene con montaje de choque?',
+        answer: 'Sí, el NT1 5ta Gen viene con el montaje de choque SM6, que incluye un filtro pop desmontable de alta calidad, así como cables XLR y USB-C.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/3KncYIr'
   },
   {
@@ -1864,6 +2254,24 @@ Para **grabación vocal**, **podcasting** y **producción musical**, la combinac
       'El compresor tiene preajustes fijos',
       'Más caro que las opciones de nivel de entrada'
     ],
+    faqs: [
+      {
+        question: '¿Funciona la Volt 276 con iPad/iPhone?',
+        answer: 'Sí, es compatible con iPad y iPhone. Sin embargo, requiere una fuente de alimentación externa de 5V (no incluida) o un hub USB alimentado cuando se usa con dispositivos Lightning.'
+      },
+      {
+        question: '¿Cuál es la diferencia entre Volt 276 y Volt 2?',
+        answer: 'La Volt 276 incluye el Compresor 76 incorporado (emulación analógica del 1176) y un diseño de chasis ligeramente diferente. La Volt 2 tiene el modo de Preamplificador Vintage pero carece del Compresor 76.'
+      },
+      {
+        question: '¿Viene con plugins?',
+        answer: 'Sí, incluye un paquete de software masivo con Ableton Live Lite, Melodyne Essential, Virtual Drummer, simulador de amplificador Marshall y plugins de Ampeg, Relab y más.'
+      },
+      {
+        question: '¿El compresor es analógico o digital?',
+        answer: 'El Compresor 76 en la Volt 276 es un circuito analógico real, no una emulación digital. Esto significa que la compresión ocurre antes de que la señal se convierta a digital, previniendo la saturación en la etapa de entrada.'
+      }
+    ],
     affiliateLink: 'https://amzn.to/48HwzMK'
   },
   {
@@ -1904,6 +2312,24 @@ Si exiges lo mejor absoluto y quieres el legendario sonido SSL en un formato com
     cons: [
       'Inversión significativa',
       'El flujo de trabajo analógico tiene curva de aprendizaje'
+    ],
+    faqs: [
+      {
+        question: '¿Es esto un mezclador digital o analógico?',
+        answer: 'La SSL18 (BiG SiX) es una verdadera consola de mezcla analógica con una interfaz de audio USB incorporada. La suma, EQ y compresión son todas 100% analógicas.'
+      },
+      {
+        question: '¿Tiene el modo "4K"?',
+        answer: 'No, el modo "4K" se encuentra en las interfaces SSL 2/2+. La SSL18 utiliza preamplificadores SuperAnalogue™, que son más limpios y de mayor fidelidad, similares a las consolas AWS y Duality.'
+      },
+      {
+        question: '¿Puedo usarla para sumar mi mezcla?',
+        answer: '¡Sí! Una de sus características principales es la suma analógica. Puedes enrutar tus stems desde tu DAW a través de los canales analógicos de la SSL18 y sumarlos a través del Compresor de Bus Serie G para ese sonido de "gran consola".'
+      },
+      {
+        question: '¿Es alimentada por bus?',
+        answer: 'No, debido a los rieles analógicos de alto voltaje y el extenso conjunto de características, requiere una fuente de alimentación externa (incluida).'
+      }
     ],
     affiliateLink: 'https://amzn.to/4pxM6o2'
   },
@@ -1983,6 +2409,24 @@ Es una inversión en calidad que rinde dividendos en cada sesión.
     cons: [
       'Sin E/S MIDI',
       'La salida de auriculares puede ser silenciosa en auriculares de alta impedancia'
+    ],
+    faqs: [
+      {
+        question: '¿La iD14 MkII necesita alimentación externa?',
+        answer: 'Está diseñada para ser alimentada por bus a través de USB 3.0 (USB-C). Sin embargo, para un rendimiento completo de phantom power y salida máxima, es importante asegurar que tu puerto USB entregue suficiente corriente.'
+      },
+      {
+        question: '¿Puedo expandir las entradas?',
+        answer: 'Sí, la iD14 MkII cuenta con una entrada óptica ADAT, permitiéndote conectar un preamplificador de micrófono externo de 8 canales (como el Audient ASP880) para grabar hasta 10 canales simultáneamente.'
+      },
+      {
+        question: '¿Son los preamplificadores los mismos que los de la consola?',
+        answer: 'Sí, Audient utiliza exactamente el mismo diseño de preamplificador de micrófono Clase-A en la iD14 MkII que en su consola de grabación insignia ASP8024-HE.'
+      },
+      {
+        question: '¿El chasis es de metal?',
+        answer: 'Sí, la iD14 MkII presenta una construcción robusta totalmente metálica con perillas de aluminio fresado a mano, haciéndola increíblemente duradera para viajar.'
+      }
     ],
     affiliateLink: 'https://amzn.to/3MaBkWk'
   },
@@ -2067,6 +2511,24 @@ A este precio, ninguna otra cosa se acerca a igualar su combinación de calidad 
     cons: [
       'El amplificador de auriculares podría ser más fuerte',
       'Sin modos "Air" o vintage'
+    ],
+    faqs: [
+      {
+        question: '¿Funciona la Studio 24c con otros DAWs?',
+        answer: 'Sí, aunque viene con Studio One Artist, la Studio 24c es compatible con cualquier DAW que soporte ASIO (Windows) o Core Audio (macOS), como Ableton Live, Logic Pro, Pro Tools y FL Studio.'
+      },
+      {
+        question: '¿Puedo grabar dos micrófonos a la vez?',
+        answer: 'Sí, la Studio 24c tiene dos entradas combo XLR/TRS, permitiéndote grabar dos micrófonos o dos instrumentos simultáneamente.'
+      },
+      {
+        question: '¿Es adecuada para transmisión en vivo?',
+        answer: 'Absolutamente. Con su función de grabación loopback, puedes capturar fácilmente audio de tu computadora y tus entradas simultáneamente, haciéndola genial para transmisión en vivo y podcasting.'
+      },
+      {
+        question: '¿Requiere una fuente de alimentación externa?',
+        answer: 'No, la Studio 24c es alimentada por bus a través de USB-C, lo que significa que extrae toda la energía necesaria directamente de tu computadora o dispositivo compatible.'
+      }
     ],
     affiliateLink: 'https://amzn.to/43ZW9d9'
   }

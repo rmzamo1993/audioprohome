@@ -88,6 +88,11 @@ export default async function ReviewPage({ params }: PageProps) {
         },
         review: {
             '@type': 'Review',
+            itemReviewed: {
+                '@type': 'Product',
+                name: product.title,
+                image: product.image
+            },
             reviewRating: {
                 '@type': 'Rating',
                 ratingValue: product.rating.toString(),
@@ -164,11 +169,10 @@ export default async function ReviewPage({ params }: PageProps) {
             <div className="container" style={{ padding: '4rem 20px' }}>
                 <div className="flex flex-col gap-8">
                     {/* Breadcrumb */}
-                    <nav aria-label="Breadcrumb" itemScope itemType="https://schema.org/BreadcrumbList">
+                    <nav aria-label="Breadcrumb">
                         <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                            <Link href={`/${lang}`} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                                <span itemProp="name">{dict.common.home}</span>
-                                <meta itemProp="position" content="1" />
+                            <Link href={`/${lang}`}>
+                                <span>{dict.common.home}</span>
                             </Link>
                             {' '}&gt;{' '}
                             <Link href={`/${lang}?category=${product.category}`}>
@@ -181,18 +185,17 @@ export default async function ReviewPage({ params }: PageProps) {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12" style={{ gridTemplateColumns: '2fr 1fr' }}>
                         {/* Main Content */}
-                        <article itemScope itemType="https://schema.org/Review">
-                            <h1 style={{ fontSize: '3rem', marginBottom: '1rem', lineHeight: 1.1 }} itemProp="name">
+                        <article>
+                            <h1 style={{ fontSize: '3rem', marginBottom: '1rem', lineHeight: 1.1 }}>
                                 {product.title}
                             </h1>
                             <div className="flex items-center gap-6 mb-12">
                                 <span className="badge badge-accent">{product.category}</span>
-                                <span style={{ color: '#fbbf24', fontWeight: 'bold' }} itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                                    ★ <span itemProp="ratingValue">{product.rating}</span>/5.0
-                                    <meta itemProp="bestRating" content="5" />
+                                <span style={{ color: '#fbbf24', fontWeight: 'bold' }}>
+                                    ★ <span>{product.rating}</span>/5.0
                                 </span>
-                                <span style={{ color: 'var(--text-muted)' }} itemProp="author" itemScope itemType="https://schema.org/Organization">
-                                    <span itemProp="name">{dict.product.by_team}</span>
+                                <span style={{ color: 'var(--text-muted)' }}>
+                                    <span>{dict.product.by_team}</span>
                                 </span>
                             </div>
 
@@ -208,7 +211,7 @@ export default async function ReviewPage({ params }: PageProps) {
                                 backgroundPosition: 'center'
                             }} />
 
-                            <div className="prose" style={{ color: 'var(--text-muted)', fontSize: '1.1rem', lineHeight: 1.8 }} itemProp="reviewBody">
+                            <div className="prose" style={{ color: 'var(--text-muted)', fontSize: '1.1rem', lineHeight: 1.8 }}>
                                 <ReactMarkdown
                                     components={{
                                         h3: ({ node, ...props }) => <h3 style={{ color: 'var(--text-main)', fontSize: '1.5rem', marginTop: '2rem', marginBottom: '1rem' }} {...props} />,
@@ -222,7 +225,7 @@ export default async function ReviewPage({ params }: PageProps) {
 
                             {/* FAQ Section */}
                             {product.faqs && product.faqs.length > 0 && (
-                                <section style={{ marginTop: '4rem' }} itemScope itemType="https://schema.org/FAQPage">
+                                <section style={{ marginTop: '4rem' }}>
                                     <h2 style={{ fontSize: '2rem', marginBottom: '2rem', color: 'var(--text-main)' }}>
                                         {isSpanish ? 'Preguntas Frecuentes' : 'Frequently Asked Questions'}
                                     </h2>
@@ -232,9 +235,6 @@ export default async function ReviewPage({ params }: PageProps) {
                                                 key={index}
                                                 className="card"
                                                 style={{ padding: '1.5rem', background: 'var(--surface)' }}
-                                                itemScope
-                                                itemProp="mainEntity"
-                                                itemType="https://schema.org/Question"
                                             >
                                                 <h3
                                                     style={{
@@ -243,17 +243,13 @@ export default async function ReviewPage({ params }: PageProps) {
                                                         color: 'var(--primary)',
                                                         fontWeight: 600
                                                     }}
-                                                    itemProp="name"
                                                 >
                                                     {faq.question}
                                                 </h3>
                                                 <div
                                                     style={{ color: 'var(--text-muted)', lineHeight: 1.7 }}
-                                                    itemScope
-                                                    itemProp="acceptedAnswer"
-                                                    itemType="https://schema.org/Answer"
                                                 >
-                                                    <div itemProp="text">{faq.answer}</div>
+                                                    <div>{faq.answer}</div>
                                                 </div>
                                             </div>
                                         ))}
@@ -264,13 +260,12 @@ export default async function ReviewPage({ params }: PageProps) {
 
                         {/* Sidebar */}
                         <div style={{ position: 'sticky', top: '100px', height: 'fit-content' }}>
-                            <div className="card" style={{ padding: '2rem' }} itemScope itemType="https://schema.org/Offer">
-                                <div style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '0.5rem' }} itemProp="price" content={numericPrice}>
+                            <div className="card" style={{ padding: '2rem' }}>
+                                <div style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '0.5rem' }}>
                                     {product.price}
-                                    <meta itemProp="priceCurrency" content={currency} />
                                 </div>
                                 <div style={{ color: '#10b981', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-                                    <span itemProp="availability" content="https://schema.org/InStock">{dict.product.in_stock}</span>
+                                    <span>{dict.product.in_stock}</span>
                                 </div>
 
                                 <a
@@ -279,7 +274,6 @@ export default async function ReviewPage({ params }: PageProps) {
                                     rel="noopener noreferrer sponsored"
                                     className="btn btn-primary"
                                     style={{ width: '100%', marginBottom: '1rem', fontSize: '1.1rem' }}
-                                    itemProp="url"
                                 >
                                     {dict.product.check_price}
                                 </a>
