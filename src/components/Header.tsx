@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getDictionary } from '@/i18n/dictionaries';
+import MobileMenu from './MobileMenu';
 
 interface HeaderProps {
   lang: 'en' | 'es';
@@ -23,7 +24,8 @@ export default async function Header({ lang }: HeaderProps) {
           Audio<span style={{ color: 'var(--primary)' }}>Pro</span>Home
         </Link>
 
-        <nav className="flex gap-8">
+        {/* Desktop Navigation */}
+        <nav className="desktop-nav flex gap-8">
           <Link href={`/${lang}`} style={{ color: 'var(--text-muted)', fontWeight: 500 }}>{dict.common.home}</Link>
           <Link href={`/${lang}?category=Monitor`} style={{ color: 'var(--text-muted)', fontWeight: 500 }}>{dict.common.monitors}</Link>
           <Link href={`/${lang}?category=Interface`} style={{ color: 'var(--text-muted)', fontWeight: 500 }}>{dict.common.interfaces}</Link>
@@ -33,6 +35,11 @@ export default async function Header({ lang }: HeaderProps) {
             {lang === 'en' ? 'ES' : 'EN'}
           </Link>
         </nav>
+
+        {/* Mobile Menu */}
+        <div className="mobile-nav">
+          <MobileMenu lang={lang} dict={dict} />
+        </div>
       </div>
     </header>
   );
