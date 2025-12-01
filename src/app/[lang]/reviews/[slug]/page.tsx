@@ -73,6 +73,7 @@ export default async function ReviewPage({ params }: PageProps) {
             price: numericPrice,
             priceCurrency: currency,
             availability: 'https://schema.org/InStock',
+            priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
             url: product.affiliateLink,
             seller: {
                 '@type': 'Organization',
