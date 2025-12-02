@@ -70,7 +70,7 @@ export default async function ReviewPage({ params }: PageProps) {
         },
         offers: {
             '@type': 'Offer',
-            price: numericPrice,
+            price: Number(numericPrice),
             priceCurrency: currency,
             availability: 'https://schema.org/InStock',
             priceValidUntil: new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
@@ -82,10 +82,10 @@ export default async function ReviewPage({ params }: PageProps) {
         },
         aggregateRating: {
             '@type': 'AggregateRating',
-            ratingValue: product.rating.toString(),
-            reviewCount: '1',
-            bestRating: '5',
-            worstRating: '1'
+            ratingValue: product.rating,
+            reviewCount: 1,
+            bestRating: 5,
+            worstRating: 1
         },
         review: {
             '@type': 'Review',
@@ -96,8 +96,8 @@ export default async function ReviewPage({ params }: PageProps) {
             },
             reviewRating: {
                 '@type': 'Rating',
-                ratingValue: product.rating.toString(),
-                bestRating: '5'
+                ratingValue: product.rating,
+                bestRating: 5
             },
             author: {
                 '@type': 'Organization',
