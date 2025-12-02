@@ -1351,6 +1351,325 @@ If you're a **producer** who values a monitor that can be tailored to your room,
       }
     ],
     affiliateLink: 'https://amzn.to/416592r'
+  },
+  {
+    id: '11',
+    slug: 'sony-mdr-m1',
+    title: 'Sony MDR-M1',
+    category: 'Headphones',
+    price: '$205.00',
+    rating: 4.9,
+    image: 'https://m.media-amazon.com/images/I/519hVWS5TCL._AC_SX679_.jpg',
+    summary: 'The new standard for high-resolution studio monitoring. Closed-back precision for the modern era.',
+    fullReview: `
+The **Sony MDR-M1** represents the next evolution in **professional studio monitoring headphones**, building upon the legendary legacy of the MDR-7506. Designed specifically for **high-resolution audio production**, these **closed-back monitor headphones** are engineered to meet the rigorous demands of modern **music production**, **mixing**, and **mastering**.
+
+While the 7506 was the standard for decades, the **MDR-M1** is the new benchmark for the digital age, offering a wider frequency response and improved comfort for marathon studio sessions.
+
+### High-Resolution Audio Precision
+
+At the heart of the **Sony MDR-M1** are newly developed drivers capable of reproducing frequencies from **5Hz to 80kHz**. This incredible range ensures that you hear every detail in your mix, from the deepest sub-bass rumble to the most delicate high-frequency air.
+
+-   **Uncolored Sound**: The M1 delivers a brutally honest, flat frequency response that allows you to make critical mixing decisions with confidence.
+-   **Superior Transient Response**: Capture the snap of a snare drum and the attack of a guitar pick with lifelike accuracy.
+-   **Stereo Imaging**: The closed-back design provides exceptional isolation while maintaining a surprisingly wide soundstage, crucial for precise panning and spatial effects.
+
+### Designed for Professional Workflows
+
+The **MDR-M1** is built for the working professional. Whether you are tracking vocals, editing dialogue, or finalizing a master, these headphones are designed to be your daily driver.
+
+-   **Exceptional Isolation**: The closed acoustic structure effectively blocks out external noise, making them perfect for **recording vocals** without bleed and for focusing in noisy environments.
+-   **All-Day Comfort**: Soft, thick ear pads and a pressure-relieving headband ensure you can wear them for 8+ hours without fatigue.
+-   **Detachable Cable**: Unlike its predecessor, the M1 features a detachable cable mechanism, adding durability and versatility to your setup.
+
+### Verdict: The New Studio Standard
+
+The **Sony MDR-M1** is not just an update; it's a revolution. It takes everything professionals loved about Sony's studio heritage and refines it for the era of **immersive audio** and **high-res streaming**.
+
+If you are a **music producer**, **audio engineer**, or **content creator** looking for the ultimate tool for critical listening, the **Sony MDR-M1** is the investment that will elevate your productions to the next level.
+    `,
+    pros: [
+      'Incredible 5Hz-80kHz frequency response',
+      'Detachable cable design',
+      'Superior comfort for long sessions',
+      'High-resolution audio ready'
+    ],
+    cons: [
+      'More expensive than the older 7506',
+      'Requires a good amp to fully shine'
+    ],
+    faqs: [
+      {
+        question: 'Is the MDR-M1 better than the MDR-7506?',
+        answer: 'Yes, the MDR-M1 is considered a significant upgrade. It offers a much wider frequency response (up to 80kHz), a detachable cable, and improved comfort, making it better suited for modern high-resolution audio production.'
+      },
+      {
+        question: 'Are these headphones closed-back?',
+        answer: 'Yes, the Sony MDR-M1 features a closed-back acoustic design. This provides excellent sound isolation, preventing headphone bleed into microphones during recording and blocking out external noise.'
+      },
+      {
+        question: 'Do I need a headphone amplifier?',
+        answer: 'While they can be driven by most interfaces, a dedicated headphone amplifier is recommended to get the most out of their high-resolution drivers and ensure optimal dynamic range.'
+      },
+      {
+        question: 'Are the ear pads replaceable?',
+        answer: 'Yes, the ear pads on the MDR-M1 are replaceable, ensuring that you can maintain the headphones for years of professional use.'
+      },
+      {
+        question: 'Is the cable detachable?',
+        answer: 'Yes, unlike the older MDR-7506, the MDR-M1 features a detachable cable, which is a huge plus for durability and allows you to swap cables if needed.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4peDwus'
+  },
+  {
+    id: '12',
+    slug: 'beyerdynamic-dt-770-pro',
+    title: 'Beyerdynamic DT 770 Pro (80 Ohm)',
+    category: 'Headphones',
+    price: '$148.00',
+    rating: 4.8,
+    image: 'https://m.media-amazon.com/images/I/71Qul5AZ51L._AC_SX679_.jpg',
+    summary: 'The ultimate closed-back studio reference headphones. Legendary German engineering delivering deep bass, pristine highs, and unmatched comfort for professional monitoring.',
+    fullReview: `
+The **Beyerdynamic DT 770 Pro (80 Ohm)** is not just a pair of headphones; it is a piece of studio history. For decades, these **closed-back studio headphones** have been the secret weapon of **professional producers**, **broadcast engineers**, and **musicians** worldwide. If you walk into any top-tier recording studio, radio station, or post-production facility, you are almost guaranteed to find a pair of DT 770 Pros hanging on the wall.
+
+Why? Because they offer a unique combination of **reference-grade sound quality**, **extreme durability**, and **all-day comfort** that few other headphones can match, especially at this price point.
+
+### The "Beyer" Sound Signature: Deep, Detailed, and Exciting
+
+The DT 770 Pro is famous for its distinct sound profile, often described as "V-shaped" but with professional precision. This makes them incredibly exciting to listen to while remaining accurate enough for critical work.
+
+-   **Sub-Bass Authority**: The **bass response** is legendary. It extends down to **5Hz**, allowing you to feel the sub-bass in your chest. This makes them the perfect choice for **hip-hop production**, **electronic music (EDM)**, and **drum recording**. You can hear exactly what the kick drum and bass synth are doing without the muddiness found in consumer headphones.
+-   **Sparkling Highs**: The treble is detailed, airy, and crisp. This reveals the subtle nuances in vocal reverbs, the shimmer of cymbals, and the "air" in acoustic recordings. While some find it bright, this detail is crucial for identifying clicks, pops, and hiss during **audio editing**.
+-   **The "Scooped" Mids**: The slightly recessed mid-range gives the headphones a wide, spacious feel that prevents ear fatigue during long sessions.
+
+### Unmatched Comfort for Marathon Sessions
+
+Ask any pro why they love their DT 770s, and the first answer is usually "comfort."
+
+-   **Velour Ear Pads**: The massive, circumaural (over-ear) ear pads are wrapped in soft, plush velour. Unlike leatherette pads that get sweaty and sticky, these breathe, keeping your ears cool for hours.
+-   **Low Clamping Force**: The spring-steel headband provides just enough pressure to create a seal without crushing your head.
+-   **Glasses Friendly**: The soft pads conform around glasses frames better than almost any other headphone, making them a lifesaver for producers who wear specs.
+
+### Built Like a German Tank
+
+"Made in Germany" isn't just a label; it's a promise of quality. The DT 770 Pro is built to survive the apocalypse.
+
+-   **Fully Serviceable**: Every single part of these headphones is replaceable. Drivers, headband, pads, cable—if you manage to break something (which is hard to do), you can fix it. This makes them a long-term investment, not a disposable gadget.
+-   **Robust Materials**: From the spring-steel headband to the high-impact plastic ear cups, everything feels solid and premium.
+
+### 80 Ohm: The Universal Sweet Spot
+
+The **80 Ohm version** is widely considered the most versatile model in the lineup:
+-   **Easy to Drive**: It's loud enough to be driven by a laptop, smartphone, or budget audio interface without needing a dedicated headphone amp.
+-   **Studio Ready**: It has higher power handling than the 32 Ohm version, making it safe for high-volume studio monitoring.
+-   **Best Bass**: Many audiophiles believe the 80 Ohm version has the tightest, most impactful bass response of the three variants.
+
+### Verdict: The King of Closed-Backs
+
+If you need **isolation** for recording vocals, **deep bass** for producing beats, or just a ridiculously comfortable pair of headphones for editing your podcast, the **Beyerdynamic DT 770 Pro (80 Ohm)** is the undisputed king. It is the standard by which all other closed-back studio headphones are measured.
+    `,
+    pros: [
+      'Legendary comfort with plush velour pads',
+      'Deep, visceral sub-bass extension (down to 5Hz)',
+      'Robust, fully repairable German construction',
+      'Excellent passive noise isolation',
+      'Wide soundstage for a closed-back design'
+    ],
+    cons: [
+      'Non-detachable 3m straight cable',
+      'High treble can be sharp for sensitive listeners',
+      'Bulky design is not portable'
+    ],
+    faqs: [
+      {
+        question: 'Why should I choose the 80 Ohm version?',
+        answer: 'The 80 Ohm version is the "Goldilocks" model. It offers the best balance of sound quality (especially bass) and ease of use. It can be driven by most audio interfaces and laptops without a dedicated amplifier, unlike the 250 Ohm version, and has better velour pads than the 32 Ohm version.'
+      },
+      {
+        question: 'Are these good for mixing?',
+        answer: 'Yes, they are excellent for checking the low-end of your mix and identifying high-frequency details. However, because they have a "V-shaped" sound (boosted bass and treble), it is recommended to cross-reference your mix on flat studio monitors or open-back headphones.'
+      },
+      {
+        question: 'Do they block out sound?',
+        answer: 'Yes, as closed-back headphones, they offer excellent passive noise isolation (approx. 18 dBA). This makes them perfect for recording vocals (preventing headphone bleed into the mic) and working in noisy environments.'
+      },
+      {
+        question: 'Is the cable detachable?',
+        answer: 'No, the DT 770 Pro features a fixed 3-meter straight cable. While this is durable, you cannot easily swap it out. However, the cable is robust and designed for studio use.'
+      },
+      {
+        question: 'Are parts replaceable?',
+        answer: 'Absolutely. One of the best features of Beyerdynamic headphones is that nearly every part—ear pads, headband padding, drivers, and cable—is available as a spare part, ensuring your headphones can last for decades.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4pcxGK2'
+  },
+  {
+    id: '13',
+    slug: 'sennheiser-hd-280-pro',
+    title: 'Sennheiser HD 280 Pro',
+    category: 'Headphones',
+    price: '$72.00',
+    rating: 4.6,
+    image: 'https://m.media-amazon.com/images/I/61b2I6buOhL._AC_SY879_.jpg',
+    summary: 'The undisputed king of passive noise isolation. The industry standard for recording drummers, vocalists, and podcasters who need absolute silence.',
+    fullReview: `
+The **Sennheiser HD 280 Pro** is not just a pair of headphones; it is a **studio necessity**. For over a decade, these **closed-back monitor headphones** have been the go-to choice for **professional recording studios**, **broadcast booths**, and **live sound engineers** who demand one thing above all else: **isolation**.
+
+If you are looking for headphones that block out the world so you can focus entirely on the audio, the HD 280 Pro is the industry benchmark.
+
+### The Cone of Silence: Best-in-Class Isolation
+
+The defining feature of the HD 280 Pro is its ability to attenuate external noise by up to **32dB**. This is achieved purely through **passive noise isolation**, without the need for batteries or active noise-canceling circuitry that can degrade audio quality.
+
+-   **Drummer's Best Friend**: They are standard issue for **recording drums** because they block out the deafening sound of the kit, allowing the drummer to hear the click track and mix clearly at safe volumes.
+-   **Vocal Booth Essential**: For **recording vocals**, they are unbeatable. Their tight seal ensures that the click track or backing music doesn't bleed out of the headphones and into the microphone, saving countless takes from being ruined.
+-   **Podcast & Broadcast**: In a busy radio station or a home studio with background noise (like computer fans or traffic), these headphones create an instant "quiet room" for your ears.
+
+### Accurate, Linear Sound for Critical Decisions
+
+While they are famous for isolation, the HD 280 Pro is also a serious tool for **critical listening**.
+
+-   **Flat Frequency Response**: They offer a linear, unhyped sound signature. They don't boost the bass or treble artificially, which means if your mix sounds good on these, it will translate well to other systems.
+-   **Mid-Range Clarity**: The mid-range is forward and detailed, making them excellent for **editing dialogue**, **podcasts**, and **vocals**. You can easily spot plosives, mouth clicks, and background hiss.
+-   **Deep Bass Extension**: With a frequency response of **8Hz - 25kHz**, they reproduce deep sub-bass accurately, though without the "boominess" of consumer headphones.
+
+### Built for the Road and the Studio
+
+Sennheiser designed the HD 280 Pro to be a workhorse.
+
+-   **Collapsible Design**: The ear cups rotate and fold up into a compact bundle, making them easy to toss into a gig bag or backpack.
+-   **Replaceable Parts**: The ear pads, headband padding, and audio cable are all easily replaceable. This modular design ensures that your investment lasts for years, even with heavy daily use.
+-   **Robust Construction**: The thick, durable plastic and rugged coiled cable are built to withstand the abuse of touring and busy studio environments.
+
+### Verdict: The Professional's Choice for Isolation
+
+The **Sennheiser HD 280 Pro** is a tool with a specific purpose: to isolate you from your environment and deliver accurate audio. Whether you are a **drummer**, a **podcaster**, or a **field recordist**, these headphones are an essential piece of kit. At this price point, there is simply nothing else that offers this level of professional performance and isolation.
+    `,
+    pros: [
+      'Industry-leading passive noise isolation (up to 32dB)',
+      'Accurate, linear sound signature for critical monitoring',
+      'Foldable, space-saving design',
+      'User-replaceable ear pads and headband padding',
+      'Excellent value for professional performance'
+    ],
+    cons: [
+      'High clamping force can be tight for some users',
+      'Coiled cable is heavy and not detachable',
+      'Functional, utilitarian aesthetic'
+    ],
+    faqs: [
+      {
+        question: 'Are these noise-canceling headphones?',
+        answer: 'No, they are "passive noise isolating." They block sound physically through their closed-back design and tight seal, rather than using active electronics (ANC). This is preferred in studios as it doesn\'t introduce digital artifacts or require batteries.'
+      },
+      {
+        question: 'Are they comfortable for long sessions?',
+        answer: 'They have a high clamping force to ensure a tight seal for isolation. While the padding is soft, some users may find them tight after 2-3 hours. However, the headband loosens up slightly over time for better comfort.'
+      },
+      {
+        question: 'Can I use these for mixing?',
+        answer: 'Yes, their flat frequency response makes them good for checking mixes, especially for mid-range details and vocals. However, like all closed-back headphones, it is recommended to also check your mix on monitors or open-back headphones for spatial accuracy.'
+      },
+      {
+        question: 'Is the cable detachable?',
+        answer: 'No, the coiled cable is fixed. However, it is very robust and designed to prevent tangles in a studio environment. If it does break, it is replaceable with some basic soldering or by a service center.'
+      },
+      {
+        question: 'Do they need a headphone amp?',
+        answer: 'No, with an impedance of 64 Ohms and high sensitivity (113 dB), they are very easy to drive. They will get plenty loud plugged directly into a laptop, phone, or audio interface.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4rx7Q5f'
+  },
+  {
+    id: '14',
+    slug: 'akg-k240-studio',
+    title: 'AKG K240 Studio',
+    category: 'Headphones',
+    price: '$66.40',
+    rating: 4.5,
+    image: 'https://m.media-amazon.com/images/I/71GqLOydxRL._AC_SY879_.jpg',
+    summary: 'The legendary semi-open studio reference. A timeless classic for mixing, mastering, and critical listening since the 1970s.',
+    fullReview: `
+The **AKG K240 Studio** is a true legend in the world of **professional audio**. First introduced in the 1970s, this iconic **semi-open headphone** has remained virtually unchanged for over four decades—not because AKG is lazy, but because the design is simply that good.
+
+Walk into any **recording studio**, **broadcast facility**, or **post-production house** around the world, and you'll likely spot a pair of K240s hanging on the wall. They are the unsung heroes of **mixing**, **mastering**, and **critical listening**.
+
+### The Semi-Open Advantage: Natural Sound
+
+Unlike fully closed-back headphones that can sound boxy, or fully open-back headphones that leak sound everywhere, the **semi-open design** of the K240 Studio strikes the perfect balance.
+
+-   **Wide, Airy Soundstage**: The vented ear cups allow air to pass through, creating a natural, speaker-like listening experience. This gives you a much more realistic sense of **stereo imaging** and **depth**, crucial for making accurate **panning** and **reverb** decisions.
+-   **No Pressure Buildup**: Your ears stay cool and comfortable during marathon **editing sessions**, **podcast production**, or **audio mastering** work.
+-   **Neutral Mid-Range**: The K240 is famous for its honest, transparent mid-range. Vocals, guitars, and dialogue sit exactly where they should, without artificial coloration.
+
+### The Self-Adjusting Headband: Comfort Redefined
+
+One of the most beloved features of the K240 is its **self-adjusting headband**. There are no size adjustments to fiddle with—just put them on, and the elastic suspension system automatically conforms to your head.
+
+-   **Even Pressure Distribution**: No hot spots or uncomfortable clamping.
+-   **Lightweight Design**: At just 240 grams, they are feather-light, making them ideal for all-day use.
+-   **Retro Aesthetic**: The vintage look is functional and iconic, instantly recognizable in any studio setting.
+
+### The Trade-Off: Not for Tracking
+
+Because of their semi-open design, the K240 Studio is **not suitable for recording vocals or instruments**. Sound leaks both in and out, which means:
+
+-   **Bleed**: If you're wearing them while recording with a microphone, the sound from the headphones will be picked up by the mic.
+-   **Monitoring Only**: Use them for **mixing**, **mastering**, **editing**, and **critical listening**—not for tracking.
+
+### Detachable Mini-XLR Cable: Professional Flexibility
+
+The K240 Studio features a **detachable mini-XLR cable**, which is a huge advantage:
+
+-   **Easy Replacement**: If the cable gets damaged, you can replace it cheaply without needing to replace the entire headphone.
+-   **Custom Cables**: Audiophiles can upgrade to higher-quality or longer cables as needed.
+-   **Tangle-Free**: The straight cable design prevents the annoying tangles of coiled cables.
+
+### Verdict: The Budget King of Semi-Open Monitoring
+
+The **AKG K240 Studio** is the perfect entry point into **semi-open headphone monitoring**. For the price, there is simply nothing else on the market that offers this level of natural, neutral sound quality.
+
+If you are a **podcaster**, **YouTuber**, **music producer**, or **audio engineer** looking for an affordable, reliable tool for **mixing** and **critical listening**, the K240 Studio is a no-brainer. It's a piece of audio history that still holds its own in the modern studio.
+    `,
+    pros: [
+      'Legendary semi-open sound with natural soundstage',
+      'Self-adjusting headband for all-day comfort',
+      'Detachable mini-XLR cable for easy replacement',
+      'Incredibly affordable for professional monitoring',
+      'Lightweight and breathable design'
+    ],
+    cons: [
+      'Weak sub-bass response (not for bass-heavy genres)',
+      'Not suitable for recording (sound leaks)',
+      'Requires decent headphone amp for optimal performance'
+    ],
+    faqs: [
+      {
+        question: 'Can I use these for recording vocals or instruments?',
+        answer: 'No, it is not recommended. Because they are semi-open, sound leaks both in and out. The backing track or click track will bleed into your microphone, ruining your recording. Use closed-back headphones for tracking.'
+      },
+      {
+        question: 'Do they need a headphone amplifier?',
+        answer: 'Yes, they benefit from a decent headphone amp. With 55 Ohms impedance and relatively low sensitivity, they can sound quiet and underwhelming when plugged directly into a phone or laptop. A proper audio interface or headphone amp will make them shine.'
+      },
+      {
+        question: 'What is the difference between semi-open and open-back?',
+        answer: 'Semi-open headphones like the K240 have partially vented ear cups, offering a balance between the isolation of closed-back and the natural sound of open-back. They leak less sound than fully open headphones but more than closed-back models.'
+      },
+      {
+        question: 'Are these good for mixing music?',
+        answer: 'Yes, they are excellent for mixing, especially for checking mid-range clarity, vocal placement, and stereo imaging. However, they lack deep sub-bass extension, so you should cross-reference your low-end on studio monitors or closed-back headphones.'
+      },
+      {
+        question: 'How do I replace the cable?',
+        answer: 'The cable uses a mini-XLR connector. You can purchase replacement cables from AKG or third-party manufacturers. Simply unplug the old cable and plug in the new one—no tools required.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4ovxQLx'
   }
 ];
 
@@ -2531,6 +2850,325 @@ A este precio, ninguna otra cosa se acerca a igualar su combinación de calidad 
       }
     ],
     affiliateLink: 'https://amzn.to/43ZW9d9'
+  },
+  {
+    id: '11',
+    slug: 'sony-mdr-m1',
+    title: 'Sony MDR-M1',
+    category: 'Headphones',
+    price: '205,00€',
+    rating: 4.9,
+    image: 'https://m.media-amazon.com/images/I/519hVWS5TCL._AC_SX679_.jpg',
+    summary: 'El nuevo estándar para monitoreo de estudio de alta resolución. Precisión cerrada para la era moderna.',
+    fullReview: `
+Los **Sony MDR-M1** representan la siguiente evolución en **auriculares de monitoreo de estudio profesional**, construyendo sobre el legado legendario de los MDR-7506. Diseñados específicamente para la **producción de audio de alta resolución**, estos **auriculares de monitor cerrados** están diseñados para cumplir con las rigurosas demandas de la **producción musical moderna**, **mezcla** y **masterización**.
+
+Mientras que los 7506 fueron el estándar durante décadas, los **MDR-M1** son el nuevo punto de referencia para la era digital, ofreciendo una respuesta de frecuencia más amplia y una comodidad mejorada para sesiones de estudio maratónicas.
+
+### Precisión de Audio de Alta Resolución
+
+En el corazón de los **Sony MDR-M1** hay controladores recientemente desarrollados capaces de reproducir frecuencias desde **5Hz hasta 80kHz**. Este rango increíble asegura que escuches cada detalle en tu mezcla, desde el retumbo de sub-graves más profundo hasta el aire de alta frecuencia más delicado.
+
+-   **Sonido Sin Coloración**: El M1 ofrece una respuesta de frecuencia brutalmente honesta y plana que te permite tomar decisiones críticas de mezcla con confianza.
+-   **Respuesta Transitoria Superior**: Captura el chasquido de una caja y el ataque de una púa de guitarra con precisión realista.
+-   **Imagen Estéreo**: El diseño cerrado proporciona un aislamiento excepcional mientras mantiene un escenario sonoro sorprendentemente amplio, crucial para paneo preciso y efectos espaciales.
+
+### Diseñados para Flujos de Trabajo Profesionales
+
+Los **MDR-M1** están construidos para el profesional que trabaja. Ya sea que estés rastreando voces, editando diálogo o finalizando un master, estos auriculares están diseñados para ser tu herramienta diaria.
+
+-   **Aislamiento Excepcional**: La estructura acústica cerrada bloquea eficazmente el ruido externo, haciéndolos perfectos para **grabar voces** sin sangrado y para concentrarse en entornos ruidosos.
+-   **Comodidad Todo el Día**: Las almohadillas suaves y gruesas y una diadema que alivia la presión aseguran que puedas usarlos durante 8+ horas sin fatiga.
+-   **Cable Desmontable**: A diferencia de su predecesor, el M1 cuenta con un mecanismo de cable desmontable, añadiendo durabilidad y versatilidad a tu configuración.
+
+### Veredicto: El Nuevo Estándar de Estudio
+
+Los **Sony MDR-M1** no son solo una actualización; son una revolución. Toman todo lo que los profesionales amaban de la herencia de estudio de Sony y lo refinan para la era del **audio inmersivo** y el **streaming de alta resolución**.
+
+Si eres un **productor musical**, **ingeniero de audio** o **creador de contenido** buscando la herramienta definitiva para escucha crítica, los **Sony MDR-M1** son la inversión que elevará tus producciones al siguiente nivel.
+    `,
+    pros: [
+      'Increíble respuesta de frecuencia de 5Hz-80kHz',
+      'Diseño de cable desmontable',
+      'Comodidad superior para sesiones largas',
+      'Listo para audio de alta resolución'
+    ],
+    cons: [
+      'Más caro que el antiguo 7506',
+      'Requiere un buen amplificador para brillar completamente'
+    ],
+    faqs: [
+      {
+        question: '¿Es el MDR-M1 mejor que el MDR-7506?',
+        answer: 'Sí, el MDR-M1 se considera una actualización significativa. Ofrece una respuesta de frecuencia mucho más amplia (hasta 80kHz), un cable desmontable y una comodidad mejorada, haciéndolo más adecuado para la producción moderna de audio de alta resolución.'
+      },
+      {
+        question: '¿Son estos auriculares cerrados?',
+        answer: 'Sí, el Sony MDR-M1 presenta un diseño acústico cerrado. Esto proporciona un excelente aislamiento de sonido, evitando que el sonido de los auriculares entre en los micrófonos durante la grabación y bloqueando el ruido externo.'
+      },
+      {
+        question: '¿Necesito un amplificador de auriculares?',
+        answer: 'Aunque pueden ser impulsados por la mayoría de las interfaces, se recomienda un amplificador de auriculares dedicado para aprovechar al máximo sus controladores de alta resolución y asegurar un rango dinámico óptimo.'
+      },
+      {
+        question: '¿Son reemplazables las almohadillas?',
+        answer: 'Sí, las almohadillas del MDR-M1 son reemplazables, asegurando que puedas mantener los auriculares durante años de uso profesional.'
+      },
+      {
+        question: '¿Es el cable desmontable?',
+        answer: 'Sí, a diferencia del antiguo MDR-7506, el MDR-M1 cuenta con un cable desmontable, lo cual es una gran ventaja para la durabilidad y te permite cambiar cables si es necesario.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4peDwus'
+  },
+  {
+    id: '12',
+    slug: 'beyerdynamic-dt-770-pro',
+    title: 'Beyerdynamic DT 770 Pro (80 Ohm)',
+    category: 'Headphones',
+    price: '148,00€',
+    rating: 4.8,
+    image: 'https://m.media-amazon.com/images/I/71Qul5AZ51L._AC_SX679_.jpg',
+    summary: 'Los auriculares de referencia de estudio cerrados definitivos. Ingeniería alemana legendaria que ofrece graves profundos, agudos prístinos y comodidad inigualable para monitoreo profesional.',
+    fullReview: `
+Los **Beyerdynamic DT 770 Pro (80 Ohm)** no son solo un par de auriculares; son una pieza de historia del estudio. Durante décadas, estos **auriculares de estudio cerrados** han sido el arma secreta de **productores profesionales**, **ingenieros de transmisión** y **músicos** en todo el mundo. Si entras en cualquier estudio de grabación de primer nivel, estación de radio o instalación de postproducción, es casi seguro que encontrarás un par de DT 770 Pro colgados en la pared.
+
+¿Por qué? Porque ofrecen una combinación única de **calidad de sonido de grado de referencia**, **durabilidad extrema** y **comodidad para todo el día** que pocos otros auriculares pueden igualar, especialmente a este precio.
+
+### La Firma de Sonido "Beyer": Profunda, Detallada y Emocionante
+
+El DT 770 Pro es famoso por su perfil de sonido distintivo, a menudo descrito como "en forma de V" pero con precisión profesional. Esto los hace increíblemente emocionantes de escuchar mientras permanecen lo suficientemente precisos para el trabajo crítico.
+
+-   **Autoridad de Sub-Graves**: La **respuesta de graves** es legendaria. Se extiende hasta **5Hz**, permitiéndote sentir los sub-graves en tu pecho. Esto los convierte en la elección perfecta para **producción de hip-hop**, **música electrónica (EDM)** y **grabación de batería**. Puedes escuchar exactamente lo que hacen el bombo y el sintetizador de bajos sin la turbidez que se encuentra en los auriculares de consumo.
+-   **Agudos Brillantes**: Los agudos son detallados, aireados y nítidos. Esto revela los matices sutiles en las reverberaciones vocales, el brillo de los platillos y el "aire" en las grabaciones acústicas. Aunque algunos lo encuentran brillante, este detalle es crucial para identificar clics, pops y siseo durante la **edición de audio**.
+-   **Medios "Recortados"**: El rango medio ligeramente retraído da a los auriculares una sensación amplia y espaciosa que previene la fatiga auditiva durante largas sesiones.
+
+### Comodidad Inigualable para Sesiones Maratónicas
+
+Pregunta a cualquier profesional por qué ama sus DT 770, y la primera respuesta suele ser "comodidad".
+
+-   **Almohadillas de Terciopelo**: Las masivas almohadillas circumaurales (sobre la oreja) están envueltas en terciopelo suave y lujoso. A diferencia de las almohadillas de cuero sintético que se vuelven sudorosas y pegajosas, estas respiran, manteniendo tus oídos frescos durante horas.
+-   **Baja Fuerza de Sujeción**: La diadema de acero elástico proporciona la presión justa para crear un sello sin aplastar tu cabeza.
+-   **Amigables con Gafas**: Las almohadillas suaves se adaptan alrededor de los marcos de las gafas mejor que casi cualquier otro auricular, haciéndolos un salvavidas para productores que usan lentes.
+
+### Construidos como un Tanque Alemán
+
+"Hecho en Alemania" no es solo una etiqueta; es una promesa de calidad. El DT 770 Pro está construido para sobrevivir al apocalipsis.
+
+-   **Totalmente Reparable**: Cada parte de estos auriculares es reemplazable. Controladores, diadema, almohadillas, cable—si logras romper algo (lo cual es difícil de hacer), puedes arreglarlo. Esto los convierte en una inversión a largo plazo, no en un gadget desechable.
+-   **Materiales Robustos**: Desde la diadema de acero elástico hasta las copas de plástico de alto impacto, todo se siente sólido y premium.
+
+### 80 Ohm: El Punto Dulce Universal
+
+La **versión de 80 Ohm** es ampliamente considerada el modelo más versátil de la línea:
+-   **Fácil de Impulsar**: Es lo suficientemente fuerte como para ser impulsado por una laptop, smartphone o interfaz de audio económica sin necesidad de un amplificador de auriculares dedicado.
+-   **Listo para Estudio**: Tiene un manejo de potencia más alto que la versión de 32 Ohm, haciéndolo seguro para monitoreo de estudio a alto volumen.
+-   **Mejores Graves**: Muchos audiófilos creen que la versión de 80 Ohm tiene la respuesta de graves más ajustada e impactante de las tres variantes.
+
+### Veredicto: El Rey de los Cerrados
+
+Si necesitas **aislamiento** para grabar voces, **graves profundos** para producir beats, o simplemente un par de auriculares ridículamente cómodos para editar tu podcast, el **Beyerdynamic DT 770 Pro (80 Ohm)** es el rey indiscutible. Es el estándar por el cual se miden todos los demás auriculares de estudio cerrados.
+    `,
+    pros: [
+      'Comodidad legendaria con almohadillas de terciopelo',
+      'Extensión de sub-graves profunda y visceral (hasta 5Hz)',
+      'Construcción alemana robusta y totalmente reparable',
+      'Excelente aislamiento de ruido pasivo',
+      'Amplio escenario sonoro para un diseño cerrado'
+    ],
+    cons: [
+      'Cable recto de 3m no desmontable',
+      'Los agudos altos pueden ser agudos para oyentes sensibles',
+      'El diseño voluminoso no es portátil'
+    ],
+    faqs: [
+      {
+        question: '¿Por qué debería elegir la versión de 80 Ohm?',
+        answer: 'La versión de 80 Ohm es el modelo "Ricitos de Oro". Ofrece el mejor equilibrio de calidad de sonido (especialmente graves) y facilidad de uso. Puede ser impulsado por la mayoría de las interfaces de audio y laptops sin un amplificador dedicado, a diferencia de la versión de 250 Ohm, y tiene mejores almohadillas de terciopelo que la versión de 32 Ohm.'
+      },
+      {
+        question: '¿Son buenos para mezclar?',
+        answer: 'Sí, son excelentes para verificar el extremo bajo de tu mezcla e identificar detalles de alta frecuencia. Sin embargo, debido a que tienen un sonido en "forma de V" (graves y agudos realzados), se recomienda cruzar referencias de tu mezcla en monitores de estudio planos o auriculares abiertos.'
+      },
+      {
+        question: '¿Bloquean el sonido?',
+        answer: 'Sí, como auriculares cerrados, ofrecen un excelente aislamiento de ruido pasivo (aprox. 18 dBA). Esto los hace perfectos para grabar voces (previniendo el sangrado de auriculares en el micrófono) y trabajar en entornos ruidosos.'
+      },
+      {
+        question: '¿Es el cable desmontable?',
+        answer: 'No, el DT 770 Pro cuenta con un cable recto fijo de 3 metros. Aunque es duradero, no puedes cambiarlo fácilmente. Sin embargo, el cable es robusto y está diseñado para uso en estudio.'
+      },
+      {
+        question: '¿Son reemplazables las piezas?',
+        answer: 'Absolutamente. Una de las mejores características de los auriculares Beyerdynamic es que casi cada parte—almohadillas, acolchado de diadema, controladores y cable—está disponible como repuesto, asegurando que tus auriculares puedan durar décadas.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4pcxGK2'
+  },
+  {
+    id: '13',
+    slug: 'sennheiser-hd-280-pro',
+    title: 'Sennheiser HD 280 Pro',
+    category: 'Headphones',
+    price: '72,00€',
+    rating: 4.6,
+    image: 'https://m.media-amazon.com/images/I/61b2I6buOhL._AC_SY879_.jpg',
+    summary: 'El rey indiscutible del aislamiento de ruido pasivo. El estándar de la industria para grabar bateristas, vocalistas y podcasters que necesitan silencio absoluto.',
+    fullReview: `
+Los **Sennheiser HD 280 Pro** no son solo un par de auriculares; son una **necesidad de estudio**. Durante más de una década, estos **auriculares de monitor cerrados** han sido la elección preferida para **estudios de grabación profesionales**, **cabinas de transmisión** e **ingenieros de sonido en vivo** que exigen una cosa por encima de todo: **aislamiento**.
+
+Si buscas auriculares que bloqueen el mundo para que puedas concentrarte completamente en el audio, los HD 280 Pro son el punto de referencia de la industria.
+
+### El Cono del Silencio: El Mejor Aislamiento de su Clase
+
+La característica definitoria de los HD 280 Pro es su capacidad para atenuar el ruido externo hasta **32dB**. Esto se logra puramente a través del **aislamiento de ruido pasivo**, sin necesidad de baterías o circuitos de cancelación de ruido activa que pueden degradar la calidad del audio.
+
+-   **El Mejor Amigo del Baterista**: Son equipo estándar para **grabar baterías** porque bloquean el sonido ensordecedor del kit, permitiendo al baterista escuchar la pista de clic y la mezcla claramente a volúmenes seguros.
+-   **Esencial para Cabina Vocal**: Para **grabar voces**, son imbatibles. Su sello hermético asegura que la pista de clic o la música de fondo no sangren fuera de los auriculares y entren en el micrófono, salvando innumerables tomas de arruinarse.
+-   **Podcast y Transmisión**: En una estación de radio ocupada o un estudio casero con ruido de fondo (como ventiladores de computadora o tráfico), estos auriculares crean una "habitación silenciosa" instantánea para tus oídos.
+
+### Sonido Preciso y Lineal para Decisiones Críticas
+
+Aunque son famosos por el aislamiento, los HD 280 Pro también son una herramienta seria para la **escucha crítica**.
+
+-   **Respuesta de Frecuencia Plana**: Ofrecen una firma de sonido lineal y sin exageraciones. No aumentan los graves o agudos artificialmente, lo que significa que si tu mezcla suena bien en estos, se traducirá bien a otros sistemas.
+-   **Claridad de Rango Medio**: El rango medio es adelantado y detallado, haciéndolos excelentes para **editar diálogo**, **podcasts** y **voces**. Puedes detectar fácilmente plosivas, clics de boca y siseo de fondo.
+-   **Extensión de Graves Profunda**: Con una respuesta de frecuencia de **8Hz - 25kHz**, reproducen sub-graves profundos con precisión, aunque sin el "retumbo" de los auriculares de consumo.
+
+### Construidos para la Carretera y el Estudio
+
+Sennheiser diseñó los HD 280 Pro para ser un caballo de batalla.
+
+-   **Diseño Plegable**: Las copas de los oídos giran y se pliegan en un paquete compacto, haciéndolos fáciles de tirar en una bolsa de concierto o mochila.
+-   **Piezas Reemplazables**: Las almohadillas de los oídos, el acolchado de la diadema y el cable de audio son todos fácilmente reemplazables. Este diseño modular asegura que tu inversión dure años, incluso con un uso diario intenso.
+-   **Construcción Robusta**: El plástico grueso y duradero y el cable en espiral resistente están construidos para soportar el abuso de las giras y los entornos de estudio ocupados.
+
+### Veredicto: La Elección del Profesional para el Aislamiento
+
+Los **Sennheiser HD 280 Pro** son una herramienta con un propósito específico: aislarte de tu entorno y entregar audio preciso. Ya seas un **baterista**, un **podcaster** o un **grabador de campo**, estos auriculares son una pieza esencial del equipo. A este precio, simplemente no hay nada más que ofrezca este nivel de rendimiento profesional y aislamiento.
+    `,
+    pros: [
+      'Aislamiento de ruido pasivo líder en la industria (hasta 32dB)',
+      'Firma de sonido precisa y lineal para monitoreo crítico',
+      'Diseño plegable que ahorra espacio',
+      'Almohadillas y acolchado de diadema reemplazables por el usuario',
+      'Excelente valor para un rendimiento profesional'
+    ],
+    cons: [
+      'La alta fuerza de sujeción puede ser apretada para algunos usuarios',
+      'El cable en espiral es pesado y no desmontable',
+      'Estética funcional y utilitaria'
+    ],
+    faqs: [
+      {
+        question: '¿Son auriculares con cancelación de ruido?',
+        answer: 'No, son "aislantes de ruido pasivos". Bloquean el sonido físicamente a través de su diseño cerrado y sello hermético, en lugar de usar electrónica activa (ANC). Esto es preferido en estudios ya que no introduce artefactos digitales ni requiere baterías.'
+      },
+      {
+        question: '¿Son cómodos para sesiones largas?',
+        answer: 'Tienen una alta fuerza de sujeción para asegurar un sello hermético para el aislamiento. Aunque el acolchado es suave, algunos usuarios pueden encontrarlos apretados después de 2-3 horas. Sin embargo, la diadema se afloja ligeramente con el tiempo para mayor comodidad.'
+      },
+      {
+        question: '¿Puedo usarlos para mezclar?',
+        answer: 'Sí, su respuesta de frecuencia plana los hace buenos para verificar mezclas, especialmente para detalles de rango medio y voces. Sin embargo, como todos los auriculares cerrados, se recomienda verificar también tu mezcla en monitores o auriculares abiertos para precisión espacial.'
+      },
+      {
+        question: '¿Es el cable desmontable?',
+        answer: 'No, el cable en espiral es fijo. Sin embargo, es muy robusto y está diseñado para evitar enredos en un entorno de estudio. Si se rompe, es reemplazable con soldadura básica o por un centro de servicio.'
+      },
+      {
+        question: '¿Necesitan un amplificador de auriculares?',
+        answer: 'No, con una impedancia de 64 Ohmios y alta sensibilidad (113 dB), son muy fáciles de impulsar. Sonarán bastante fuerte conectados directamente a una laptop, teléfono o interfaz de audio.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4rx7Q5f'
+  },
+  {
+    id: '14',
+    slug: 'akg-k240-studio',
+    title: 'AKG K240 Studio',
+    category: 'Headphones',
+    price: '66,40€',
+    rating: 4.5,
+    image: 'https://m.media-amazon.com/images/I/71GqLOydxRL._AC_SY879_.jpg',
+    summary: 'La legendaria referencia de estudio semi-abierta. Un clásico atemporal para mezcla, masterización y escucha crítica desde los años 70.',
+    fullReview: `
+Los **AKG K240 Studio** son una verdadera leyenda en el mundo del **audio profesional**. Introducidos por primera vez en la década de 1970, estos icónicos **auriculares semi-abiertos** han permanecido prácticamente sin cambios durante más de cuatro décadas—no porque AKG sea perezoso, sino porque el diseño es simplemente así de bueno.
+
+Entra en cualquier **estudio de grabación**, **instalación de transmisión** o **casa de postproducción** en todo el mundo, y es probable que veas un par de K240 colgados en la pared. Son los héroes no reconocidos de la **mezcla**, **masterización** y **escucha crítica**.
+
+### La Ventaja Semi-Abierta: Sonido Natural
+
+A diferencia de los auriculares completamente cerrados que pueden sonar encajonados, o los auriculares completamente abiertos que filtran sonido por todas partes, el **diseño semi-abierto** de los K240 Studio logra el equilibrio perfecto.
+
+-   **Escenario Sonoro Amplio y Aireado**: Las copas de los oídos ventiladas permiten que el aire pase, creando una experiencia auditiva natural similar a la de altavoces. Esto te da una sensación mucho más realista de **imagen estéreo** y **profundidad**, crucial para tomar decisiones precisas de **paneo** y **reverberación**.
+-   **Sin Acumulación de Presión**: Tus oídos se mantienen frescos y cómodos durante **sesiones de edición** maratónicas, **producción de podcast** o trabajo de **masterización de audio**.
+-   **Rango Medio Neutral**: El K240 es famoso por su rango medio honesto y transparente. Voces, guitarras y diálogos se sitúan exactamente donde deberían, sin coloración artificial.
+
+### La Diadema Autoajustable: Comodidad Redefinida
+
+Una de las características más queridas del K240 es su **diadema autoajustable**. No hay ajustes de tamaño con los que jugar—simplemente póntelos y el sistema de suspensión elástica se ajusta automáticamente a tu cabeza.
+
+-   **Distribución Uniforme de Presión**: Sin puntos calientes ni sujeción incómoda.
+-   **Diseño Ligero**: Con solo 240 gramos, son ligeros como una pluma, haciéndolos ideales para uso durante todo el día.
+-   **Estética Retro**: El aspecto vintage es funcional e icónico, instantáneamente reconocible en cualquier entorno de estudio.
+
+### El Compromiso: No para Grabación
+
+Debido a su diseño semi-abierto, los K240 Studio **no son adecuados para grabar voces o instrumentos**. El sonido se filtra tanto hacia adentro como hacia afuera, lo que significa:
+
+-   **Sangrado**: Si los usas mientras grabas con un micrófono, el sonido de los auriculares será captado por el micrófono.
+-   **Solo Monitoreo**: Úsalos para **mezcla**, **masterización**, **edición** y **escucha crítica**—no para grabación.
+
+### Cable Mini-XLR Desmontable: Flexibilidad Profesional
+
+Los K240 Studio cuentan con un **cable mini-XLR desmontable**, lo cual es una gran ventaja:
+
+-   **Fácil Reemplazo**: Si el cable se daña, puedes reemplazarlo económicamente sin necesidad de reemplazar todo el auricular.
+-   **Cables Personalizados**: Los audiófilos pueden actualizar a cables de mayor calidad o más largos según sea necesario.
+-   **Sin Enredos**: El diseño de cable recto previene los molestos enredos de los cables en espiral.
+
+### Veredicto: El Rey Económico del Monitoreo Semi-Abierto
+
+Los **AKG K240 Studio** son el punto de entrada perfecto al **monitoreo con auriculares semi-abiertos**. Por el precio, simplemente no hay nada más en el mercado que ofrezca este nivel de calidad de sonido natural y neutral.
+
+Si eres un **podcaster**, **YouTuber**, **productor musical** o **ingeniero de audio** buscando una herramienta asequible y confiable para **mezcla** y **escucha crítica**, los K240 Studio son una obviedad. Son una pieza de historia del audio que todavía se mantiene firme en el estudio moderno.
+    `,
+    pros: [
+      'Sonido semi-abierto legendario con escenario sonoro natural',
+      'Diadema autoajustable para comodidad durante todo el día',
+      'Cable mini-XLR desmontable para fácil reemplazo',
+      'Increíblemente asequible para monitoreo profesional',
+      'Diseño ligero y transpirable'
+    ],
+    cons: [
+      'Respuesta de sub-graves débil (no para géneros con muchos graves)',
+      'No apto para grabación (el sonido se filtra)',
+      'Requiere amplificador de auriculares decente para rendimiento óptimo'
+    ],
+    faqs: [
+      {
+        question: '¿Puedo usarlos para grabar voces o instrumentos?',
+        answer: 'No, no se recomienda. Debido a que son semi-abiertos, el sonido se filtra tanto hacia adentro como hacia afuera. La pista de acompañamiento o la pista de clic sangrará en tu micrófono, arruinando tu grabación. Usa auriculares cerrados para grabación.'
+      },
+      {
+        question: '¿Necesitan un amplificador de auriculares?',
+        answer: 'Sí, se benefician de un amplificador de auriculares decente. Con una impedancia de 55 Ohmios y sensibilidad relativamente baja, pueden sonar silenciosos y poco impresionantes cuando se conectan directamente a un teléfono o laptop. Una interfaz de audio adecuada o un amplificador de auriculares los hará brillar.'
+      },
+      {
+        question: '¿Cuál es la diferencia entre semi-abierto y abierto?',
+        answer: 'Los auriculares semi-abiertos como el K240 tienen copas de oídos parcialmente ventiladas, ofreciendo un equilibrio entre el aislamiento de los cerrados y el sonido natural de los abiertos. Filtran menos sonido que los auriculares completamente abiertos pero más que los modelos cerrados.'
+      },
+      {
+        question: '¿Son buenos para mezclar música?',
+        answer: 'Sí, son excelentes para mezclar, especialmente para verificar la claridad del rango medio, la colocación vocal y la imagen estéreo. Sin embargo, carecen de extensión profunda de sub-graves, por lo que deberías cruzar referencias de tu extremo bajo en monitores de estudio o auriculares cerrados.'
+      },
+      {
+        question: '¿Cómo reemplazo el cable?',
+        answer: 'El cable usa un conector mini-XLR. Puedes comprar cables de reemplazo de AKG o fabricantes de terceros. Simplemente desconecta el cable viejo y conecta el nuevo—no se necesitan herramientas.'
+      }
+    ],
+    affiliateLink: 'https://amzn.to/4ovxQLx'
   }
 ];
 

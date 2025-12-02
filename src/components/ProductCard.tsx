@@ -48,7 +48,7 @@ export default async function ProductCard({ product, lang }: ProductCardProps) {
                     <span style={{ fontWeight: 700, fontSize: '1.125rem' }}>{product.price}</span>
                 </div>
 
-                <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem', marginTop: '0.75rem' }}>
                     <Link href={`/${lang}/reviews/${product.slug}`} style={{ color: 'var(--text-main)' }}>
                         {product.title}
                     </Link>

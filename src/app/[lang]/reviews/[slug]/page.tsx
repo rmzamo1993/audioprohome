@@ -182,11 +182,13 @@ export default async function ReviewPage({ params }: PageProps) {
                     <div className="review-layout">
                         {/* Main Content */}
                         <article className="review-content">
-                            <h1 style={{ fontSize: '3rem', marginBottom: '1rem', lineHeight: 1.1 }}>
+                            <div className="mb-4">
+                                <span className="badge badge-accent">{product.category}</span>
+                            </div>
+                            <h1 style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: 1.1 }}>
                                 {product.title}
                             </h1>
-                            <div className="flex items-center gap-6 mb-12">
-                                <span className="badge badge-accent">{product.category}</span>
+                            <div className="flex items-center gap-8 mb-12">
                                 <span style={{ color: '#fbbf24', fontWeight: 'bold' }}>
                                     ★ <span>{product.rating}</span>/5.0
                                 </span>
