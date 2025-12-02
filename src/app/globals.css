@@ -347,3 +347,8 @@ button {
     display: block;
   }
 }
+
+/* Product table link hover effect */
+.product-table-link:hover {
+  color: var(--primary) !important;
+}

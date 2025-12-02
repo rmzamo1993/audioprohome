@@ -282,9 +282,22 @@ export default async function Home({ params, searchParams }: PageProps) {
                                                         flexShrink: 0
                                                     }} />
                                                     <div>
-                                                        <div style={{ fontWeight: 600, marginBottom: '0.25rem' }}>
+                                                        <a
+                                                            href={product.affiliateLink}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer sponsored"
+                                                            className="product-table-link"
+                                                            style={{
+                                                                fontWeight: 600,
+                                                                marginBottom: '0.25rem',
+                                                                display: 'block',
+                                                                color: 'var(--text-main)',
+                                                                textDecoration: 'none',
+                                                                transition: 'color 0.2s'
+                                                            }}
+                                                        >
                                                             {product.title}
-                                                        </div>
+                                                        </a>
                                                         <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
                                                             {product.category}
                                                         </div>
@@ -300,8 +313,8 @@ export default async function Home({ params, searchParams }: PageProps) {
                                                     <span style={{ fontWeight: 600 }}>{product.rating}</span>
                                                 </div>
                                             </td>
-                                            <td style={{ padding: '1.5rem', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                                                {product.summary.split('.')[0].substring(0, 50)}...
+                                            <td style={{ padding: '1.5rem', textAlign: 'left', color: 'var(--text-muted)', fontSize: '0.9rem', maxWidth: '300px' }}>
+                                                {product.summary.split('.')[0]}.
                                             </td>
                                         </tr>
                                     ))}
