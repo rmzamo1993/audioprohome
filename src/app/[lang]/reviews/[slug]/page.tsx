@@ -89,11 +89,6 @@ export default async function ReviewPage({ params }: PageProps) {
         },
         review: {
             '@type': 'Review',
-            itemReviewed: {
-                '@type': 'Product',
-                name: product.title,
-                image: product.image
-            },
             reviewRating: {
                 '@type': 'Rating',
                 ratingValue: product.rating,
