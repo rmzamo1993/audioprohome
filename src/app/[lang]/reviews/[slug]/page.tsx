@@ -54,7 +54,14 @@ export default async function ReviewPage({ params }: PageProps) {
     const baseUrl = 'https://audioprohome.com';
 
     // Extract numeric price for schema
-    const numericPrice = product.price.replace(/[^0-9.,]/g, '').replace(',', '.');
+    let numericPrice;
+    if (product.price.includes('€')) {
+        // European format (e.g., 1.040,00€): remove everything except numbers and comma, then replace comma with dot
+        numericPrice = product.price.replace(/[^0-9,]/g, '').replace(',', '.');
+    } else {
+        // US format (e.g., $1,040.00): remove everything except numbers and dot (removes commas used as thousands separators)
+        numericPrice = product.price.replace(/[^0-9.]/g, '');
+    }
     const currency = product.price.includes('€') ? 'EUR' : 'USD';
 
     // Product Schema
